@@ -25,14 +25,14 @@
       }
     ],
     "contact": {
-      "appointmentPhone": "+91 98200 12345",
+      "appointmentPhone": "+91 90049 09660",
       "emergencyPhone": "+91 98200 12346",
-      "appointmentPhoneRaw": "+919820012345",
+      "appointmentPhoneRaw": "+919004909660",
       "emergencyPhoneRaw": "+919820012346",
       "email": "info@joshipanchkarma.com",
       "supportEmail": "care@joshipanchkarma.com",
       "appointmentEmail": "book@joshipanchkarma.com",
-      "whatsapp": "919820012345"
+      "whatsapp": "919004909660"
     },
     "address": {
       "line1": "1st Floor, Shanti Arcade, Near Panvel Station",
@@ -105,14 +105,14 @@
       }
     ],
     "contact": {
-      "appointmentPhone": "+91 98333 45678",
+      "appointmentPhone": "+91 96533 30552",
       "emergencyPhone": "+91 98333 45679",
-      "appointmentPhoneRaw": "+919833345678",
+      "appointmentPhoneRaw": "+919653330552",
       "emergencyPhoneRaw": "+919833345679",
       "email": "contact@ozoneayurved.in",
       "supportEmail": "support@ozoneayurved.in",
       "appointmentEmail": "appointments@ozoneayurved.in",
-      "whatsapp": "919833345678"
+      "whatsapp": "919653330552"
     },
     "address": {
       "line1": "Shop 4-5, Ozone Heights, Sector 15",
@@ -180,14 +180,14 @@
       }
     ],
     "contact": {
-      "appointmentPhone": "+91 91677 88990",
+      "appointmentPhone": "+91 96577 22015",
       "emergencyPhone": "+91 91677 88991",
-      "appointmentPhoneRaw": "+919167788990",
+      "appointmentPhoneRaw": "+919657722015",
       "emergencyPhoneRaw": "+919167788991",
       "email": "info@gajananayurved.com",
       "supportEmail": "care@gajananayurved.com",
       "appointmentEmail": "book@gajananayurved.com",
-      "whatsapp": "919167788990"
+      "whatsapp": "919657722015"
     },
     "address": {
       "line1": "Gajanan Heritage Building, Near Shivaji Chowk",
@@ -255,14 +255,14 @@
       }
     ],
     "contact": {
-      "appointmentPhone": "+91 97699 11223",
+      "appointmentPhone": "+91 99304 47515",
       "emergencyPhone": "+91 97699 11224",
-      "appointmentPhoneRaw": "+919769911223",
+      "appointmentPhoneRaw": "+919930447515",
       "emergencyPhoneRaw": "+919769911224",
       "email": "care@vedshriayurved.in",
       "supportEmail": "help@vedshriayurved.in",
       "appointmentEmail": "appointments@vedshriayurved.in",
-      "whatsapp": "919769911223"
+      "whatsapp": "919930447515"
     },
     "address": {
       "line1": "Office No. 12, Ved Shri Plaza, Sector 20",
@@ -330,14 +330,14 @@
       }
     ],
     "contact": {
-      "appointmentPhone": "+91 99200 88776",
+      "appointmentPhone": "+91 97734 06886",
       "emergencyPhone": "+91 99200 88777",
-      "appointmentPhoneRaw": "+919920088776",
+      "appointmentPhoneRaw": "+919773406886",
       "emergencyPhoneRaw": "+919920088777",
       "email": "smile@drsheikhdental.com",
       "supportEmail": "help@drsheikhdental.com",
       "appointmentEmail": "book@drsheikhdental.com",
-      "whatsapp": "919920088776"
+      "whatsapp": "919773406886"
     },
     "address": {
       "line1": "Suite 101, Elite Medical Hub, Matheran Road",
@@ -384,81 +384,6 @@
     }
   },
 
-  "2830": {
-    "clinicName": "Dr. Mhatre Dental Clinic",
-    "tagline": "Trusted Family Dental Care",
-    "heroTitle": "Healthy Teeth,",
-    "heroTitleHighlight": "Beautiful Life",
-    "heroDescription": "Providing premium, gentle dental services for families across Panvel. Your oral comfort and health are our absolute priority.",
-    "established": "2008",
-    "yearsExperience": "18+",
-    "patientsTreated": "25k+",
-    "expertDoctors": "3+",
-    "satisfactionRate": "97%",
-    "rating": "4.8",
-    "reviewCount": "1,600+",
-    "aboutDescription": "Owned and operated by Chief Dentist Dr. Rupesh Mhatre, Dr. Mhatre Dental Clinic has been a cornerstone of dependable dental healthcare in Panvel for close to two decades. We emphasize preventative workflows and conservative dental health treatments.",
-    "missionStatement": "To supply affordable, premium dental care solutions tailored beautifully to look after every generation of your family.",
-    "doctors": [
-      {
-        "name": "Dr. Rupesh Mhatre",
-        "title": "Owner & Chief Dentist",
-        "qualification": "BDS, Government Dental College Mumbai",
-        "experience": "18+ years",
-        "specialization": "General Dentistry & Orthodontics",
-        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
-      }
-    ],
-    "contact": {
-      "appointmentPhone": "+91 98199 44332",
-      "emergencyPhone": "+91 98199 44333",
-      "appointmentPhoneRaw": "+919819944332",
-      "emergencyPhoneRaw": "+919819944333",
-      "email": "contact@drmhatredental.in",
-      "supportEmail": "care@drmhatredental.in",
-      "appointmentEmail": "appointments@drmhatredental.in",
-      "whatsapp": "919819944332"
-    },
-    "address": {
-      "line1": "Ground Floor, Mhatre Niwas, Near Takka Colony",
-      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
-      "googleMapsEmbed": "https://maps.google.com/maps?q=Takka+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
-      "googleMapsLink": "https://maps.google.com/?q=Takka+Panvel+Navi+Mumbai+Maharashtra+410206"
-    },
-    "hours": {
-      "weekdays": "Monday - Saturday",
-      "weekdayHours": "9:00 AM - 1:00 PM, 4:30 PM - 8:30 PM",
-      "saturday": "Saturday",
-      "saturdayHours": "9:00 AM - 4:00 PM",
-      "sunday": "Sunday",
-      "sundayHours": "Closed",
-      "summary": "Mon - Sat: Morning & Evening Shift Split"
-    },
-    "social": {
-      "facebook": "https://www.facebook.com/DrMhatreDentalPanvel",
-      "twitter": "https://twitter.com/DrMhatreDental",
-      "instagram": "https://www.instagram.com/drmhatredental",
-      "linkedin": "https://www.linkedin.com/company/dr-mhatre-dental-clinic",
-      "youtube": "https://www.youtube.com/@DrMhatreDental"
-    },
-    "services": [
-      {
-        "icon": "fas fa-teeth-open",
-        "title": "Orthodontic Braces",
-        "description": "Metal and ceramic alignment options designed meticulously for children and adults to correct structural alignment."
-      },
-      {
-        "icon": "fas fa-shield-halved",
-        "title": "Family Oral Checkup",
-        "description": "Routine dental cleaning, tooth colored fillings, and preventative structural monitoring setups."
-      }
-    ],
-    "seo": {
-      "metaDescription": "Dr. Mhatre Dental Clinic in Panvel delivers exceptional restorative and orthodontic solutions under the care of Dr. Rupesh Mhatre.",
-      "metaKeywords": "Dr Rupesh Mhatre, dentist Panvel, dental clinic Navi Mumbai, family dentist, braces treatment"
-    }
-  },
-
   "8311": {
     "clinicName": "Dr. Sana's Family Clinic",
     "tagline": "Compassionate Care for Every Generation",
@@ -485,14 +410,14 @@
       }
     ],
     "contact": {
-      "appointmentPhone": "+91 91522 33445",
+      "appointmentPhone": "+91 72087 71067",
       "emergencyPhone": "+91 91522 33446",
-      "appointmentPhoneRaw": "+919152233445",
+      "appointmentPhoneRaw": "+917208771067",
       "emergencyPhoneRaw": "+919152233446",
       "email": "hello@drsanafamilyclinic.com",
       "supportEmail": "care@drsanafamilyclinic.com",
       "appointmentEmail": "book@drsanafamilyclinic.com",
-      "whatsapp": "9152233445"
+      "whatsapp": "7208771067"
     },
     "address": {
       "line1": "Shop 10, Crystal Plaza, Khanda Colony",
