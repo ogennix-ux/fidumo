@@ -1,0 +1,536 @@
+{
+  "5821": {
+    "clinicName": "Joshi Panchkarma Clinic",
+    "tagline": "Authentic Ayurveda for Holistic Healing",
+    "heroTitle": "Restore Balance,",
+    "heroTitleHighlight": "Revitalize Life",
+    "heroDescription": "Experience the profound healing power of traditional Ayurveda and customized Panchkarma therapies under the expert guidance of our certified physicians.",
+    "established": "2015",
+    "yearsExperience": "11+",
+    "patientsTreated": "12k+",
+    "expertDoctors": "3+",
+    "satisfactionRate": "97%",
+    "rating": "4.9",
+    "reviewCount": "850+",
+    "aboutDescription": "Located in Panvel, Joshi Panchkarma Clinic is dedicated to promoting natural wellness through personalized Ayurvedic treatments. Headed by Dr. Jyoti Anand Joshi, we combine ancient wisdom with modern diagnostic insights to treat the root cause of chronic ailments.",
+    "missionStatement": "To provide high-quality, authentic Ayurvedic healthcare that fosters long-term physical, mental, and spiritual well-being.",
+    "doctors": [
+      {
+        "name": "Dr. Jyoti Anand Joshi",
+        "title": "Chief Doctor & Founder",
+        "qualification": "BAMS, MD (Ayurveda), Mumbai University",
+        "experience": "15+ years",
+        "specialization": "Panchkarma & Chronic Disease Management",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98200 12345",
+      "emergencyPhone": "+91 98200 12346",
+      "appointmentPhoneRaw": "+919820012345",
+      "emergencyPhoneRaw": "+919820012346",
+      "email": "info@joshipanchkarma.com",
+      "supportEmail": "care@joshipanchkarma.com",
+      "appointmentEmail": "book@joshipanchkarma.com",
+      "whatsapp": "919820012345"
+    },
+    "address": {
+      "line1": "1st Floor, Shanti Arcade, Near Panvel Station",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Panvel+Station+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Panvel+Station+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "9:00 AM - 1:00 PM, 5:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 9:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/JoshiPanchkarmaPanvel",
+      "twitter": "https://twitter.com/JoshiAyurPanvel",
+      "instagram": "https://www.instagram.com/joshipanchkarmaclinic",
+      "linkedin": "https://www.linkedin.com/company/joshi-panchkarma-clinic",
+      "youtube": "https://www.youtube.com/@JoshiPanchkarma"
+    },
+    "services": [
+      {
+        "icon": "fas fa-spa",
+        "title": "Panchkarma Therapy",
+        "description": "Complete body detoxification and rejuvenation therapies including Vamana, Virechana, and Basti tailored to your body type."
+      },
+      {
+        "icon": "fas fa-leaf",
+        "title": "Ayurvedic Consultation",
+        "description": "In-depth pulse diagnosis (Nadi Pariksha) and constitutional analysis to design customized diet and lifestyle plans."
+      },
+      {
+        "icon": "fas fa-mortar-pestle",
+        "title": "Chronic Pain Management",
+        "description": "Effective traditional treatments for arthritis, sciatica, spondylitis, and long-term joint disorders without side effects."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Joshi Panchkarma Clinic in Panvel offers authentic Ayurvedic treatments, detoxification, and wellness consultations under Dr. Jyoti Anand Joshi.",
+      "metaKeywords": "Ayurveda Panvel, Panchkarma clinic Navi Mumbai, Dr Jyoti Anand Joshi, Ayurvedic doctor Panvel, detox treatment"
+    }
+  },
+
+  "7419": {
+    "clinicName": "Ozone Ayurved and Panchkarma Clinic",
+    "tagline": "Pure Healing, Natural Living",
+    "heroTitle": "Experience the Cleanse,",
+    "heroTitleHighlight": "Feel the Vitality",
+    "heroDescription": "Step into a world of pure therapeutic healing. Ozone Ayurved combines highly effective Panchkarma detoxes with specialized herbal care.",
+    "established": "2018",
+    "yearsExperience": "8+",
+    "patientsTreated": "8k+",
+    "expertDoctors": "2+",
+    "satisfactionRate": "96%",
+    "rating": "4.8",
+    "reviewCount": "510+",
+    "aboutDescription": "Ozone Ayurved and Panchkarma Clinic is a premier wellness center in Panvel, spearheaded by Chief Doctor Tanay Mudgal. We specialize in stress management, metabolic disorders, and pure Panchkarma cleansing practices.",
+    "missionStatement": "To bridge traditional Ayurvedic modalities with modern health requirements, delivering reliable and chemical-free healthcare solutions.",
+    "doctors": [
+      {
+        "name": "Dr. Tanay Mudgal",
+        "title": "Chief Doctor",
+        "qualification": "BAMS, Panchkarma Specialist, Podar Ayurvedic College",
+        "experience": "10+ years",
+        "specialization": "Metabolic Disorders & Detoxification",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98333 45678",
+      "emergencyPhone": "+91 98333 45679",
+      "appointmentPhoneRaw": "+919833345678",
+      "emergencyPhoneRaw": "+919833345679",
+      "email": "contact@ozoneayurved.in",
+      "supportEmail": "support@ozoneayurved.in",
+      "appointmentEmail": "appointments@ozoneayurved.in",
+      "whatsapp": "919833345678"
+    },
+    "address": {
+      "line1": "Shop 4-5, Ozone Heights, Sector 15",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 8:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 8:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/OzoneAyurvedPanvel",
+      "twitter": "https://twitter.com/OzoneAyurved",
+      "instagram": "https://www.instagram.com/ozoneayurved",
+      "linkedin": "https://www.linkedin.com/company/ozone-ayurved",
+      "youtube": "https://www.youtube.com/@OzoneAyurved"
+    },
+    "services": [
+      {
+        "icon": "fas fa-seedling",
+        "title": "Stress & Anxiety Relief",
+        "description": "Soothing Shirodhara and herbal therapies to balance the nervous system and clear mental exhaustion."
+      },
+      {
+        "icon": "fas fa-weight-scale",
+        "title": "Weight Management",
+        "description": "Udvartana (herbal powder massage) paired with specialized dietary programs for safe weight correction."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Ozone Ayurved and Panchkarma Clinic in Panvel offers expert wellness consultations and deep detox therapies by Dr. Tanay Mudgal.",
+      "metaKeywords": "Ozone Ayurved, Dr Tanay Mudgal, Panchkarma Panvel, Ayurvedic detox, wellness clinic Navi Mumbai"
+    }
+  },
+
+  "4910": {
+    "clinicName": "Shree Gajanan Ayurvedic Chikitsalaya and Panchkarma Centre",
+    "tagline": "Traditional Wisdom for Modern Wellness",
+    "heroTitle": "Time-Tested Remedies,",
+    "heroTitleHighlight": "True Wellness",
+    "heroDescription": "Restore your constitutional equilibrium with authentic herbs, classical therapies, and deep systemic detoxification programs.",
+    "established": "2010",
+    "yearsExperience": "16+",
+    "patientsTreated": "15k+",
+    "expertDoctors": "4+",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "1,100+",
+    "aboutDescription": "Shree Gajanan Ayurvedic Chikitsalaya and Panchkarma Centre is a comprehensive healing institution based in Panvel. Headed by Chief Doctor Neeraj Dandekar, our center focuses on complex autoimmune issues, digestive health, and preventive wellness therapies.",
+    "missionStatement": "To provide classical, evidence-backed Ayurvedic medicine and flawless Panchkarma procedures with unwavering compassion.",
+    "doctors": [
+      {
+        "name": "Dr. Neeraj Dandekar",
+        "title": "Chief Doctor & Director",
+        "qualification": "MD (Ayurveda Medicine), Tilak Ayurved Mahavidyalaya",
+        "experience": "16+ years",
+        "specialization": "Autoimmune & Digestive Disorders",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 91677 88990",
+      "emergencyPhone": "+91 91677 88991",
+      "appointmentPhoneRaw": "+919167788990",
+      "emergencyPhoneRaw": "+919167788991",
+      "email": "info@gajananayurved.com",
+      "supportEmail": "care@gajananayurved.com",
+      "appointmentEmail": "book@gajananayurved.com",
+      "whatsapp": "919167788990"
+    },
+    "address": {
+      "line1": "Gajanan Heritage Building, Near Shivaji Chowk",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Shivaji+Chowk+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Shivaji+Chowk+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "8:30 AM - 8:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 8:30 AM - 8:30 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ShreeGajananAyurvedPanvel",
+      "twitter": "https://twitter.com/GajananAyurved",
+      "instagram": "https://www.instagram.com/shreegajananayurved",
+      "linkedin": "https://www.linkedin.com/company/shree-gajanan-ayurvedic-chikitsalaya",
+      "youtube": "https://www.youtube.com/@ShreeGajananAyurved"
+    },
+    "services": [
+      {
+        "icon": "fas fa-prescription-bottle-medical",
+        "title": "Gastrointestinal Care",
+        "description": "Targeted Ayurvedic treatments for IBS, chronic acidity, and deep rooted metabolic disorders."
+      },
+      {
+        "icon": "fas fa-child-dress",
+        "title": "Skin & Hair Therapy",
+        "description": "Psoriasis, eczema, and severe hair fall solutions managed through external therapies and internal purification."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Shree Gajanan Ayurvedic Chikitsalaya in Panvel provides high-grade classical Ayurvedic care under Chief Doctor Neeraj Dandekar.",
+      "metaKeywords": "Shree Gajanan Ayurvedic, Dr Neeraj Dandekar, Panchkarma Panvel, Ayurvedic clinic Navi Mumbai, health center"
+    }
+  },
+
+  "1154": {
+    "clinicName": "Ved Shri Ayurved and Panchkarma Clinic",
+    "tagline": "Embrace Pure Health Naturally",
+    "heroTitle": "Gentle Care,",
+    "heroTitleHighlight": "Deep Transformation",
+    "heroDescription": "Nurture your physical body and find inner peace. Ved Shri Ayurved balances your lifestyle using time-tested natural treatment procedures.",
+    "established": "2016",
+    "yearsExperience": "10+",
+    "patientsTreated": "6k+",
+    "expertDoctors": "2+",
+    "satisfactionRate": "99%",
+    "rating": "5.0",
+    "reviewCount": "480+",
+    "aboutDescription": "Headed by Chief Doctor Vaishali Sawant, Ved Shri Ayurved and Panchkarma Clinic is a dedicated women and family-focused wellness center in Panvel. We are committed to making ancient wellness secrets approachable and practical for urban lives.",
+    "missionStatement": "To provide genuine maternal, lifestyle, and constitutional healthcare solutions using safe, organic Ayurvedic treatments.",
+    "doctors": [
+      {
+        "name": "Dr. Vaishali Sawant",
+        "title": "Chief Doctor",
+        "qualification": "BAMS, Specialized in Gynaec-Ayurveda, Pune University",
+        "experience": "12+ years",
+        "specialization": "Women's Wellness & Lifestyle Rebalancing",
+        "image": "https://images.unsplash.com/photo-1594824813573-246434de83fb?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 97699 11223",
+      "emergencyPhone": "+91 97699 11224",
+      "appointmentPhoneRaw": "+919769911223",
+      "emergencyPhoneRaw": "+919769911224",
+      "email": "care@vedshriayurved.in",
+      "supportEmail": "help@vedshriayurved.in",
+      "appointmentEmail": "appointments@vedshriayurved.in",
+      "whatsapp": "919769911223"
+    },
+    "address": {
+      "line1": "Office No. 12, Ved Shri Plaza, Sector 20",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+20+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+20+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "9:30 AM - 7:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 9:30 AM - 7:30 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/VedShriAyurvedPanvel",
+      "twitter": "https://twitter.com/VedShriAyurved",
+      "instagram": "https://www.instagram.com/vedshriayurved",
+      "linkedin": "https://www.linkedin.com/company/ved-shri-ayurved",
+      "youtube": "https://www.youtube.com/@VedShriAyurved"
+    },
+    "services": [
+      {
+        "icon": "fas fa-venus",
+        "title": "Women's Health Care",
+        "description": "Safe management plans for PCOD, hormonal imbalances, and post-pregnancy rejuvenation therapies."
+      },
+      {
+        "icon": "fas fa-hand-holding-heart",
+        "title": "Rejuvenation Massages",
+        "description": "Full-body Abhyanga utilizing therapeutic, custom-blended medicated oils to relieve muscular fatigue."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Ved Shri Ayurved and Panchkarma Clinic in Panvel provides reliable family healthcare and women's wellness treatments under Dr. Vaishali Sawant.",
+      "metaKeywords": "Ved Shri Ayurved, Dr Vaishali Sawant, Ayurvedic clinic Panvel, female doctor Panvel, wellness"
+    }
+  },
+
+  "9642": {
+    "clinicName": "Dr. Sheikh's Dental Clinic and Implant Centre",
+    "tagline": "Your Smile, Our Passion",
+    "heroTitle": "Advanced Dentistry,",
+    "heroTitleHighlight": "Flawless Smiles",
+    "heroDescription": "Step into a state-of-the-art facility featuring microscopic precision dental treatments, premium implants, and pain-free execution.",
+    "established": "2013",
+    "yearsExperience": "13+",
+    "patientsTreated": "20k+",
+    "expertDoctors": "5+",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "1,450+",
+    "aboutDescription": "Dr. Sheikh's Dental Clinic and Implant Centre is an elite oral healthcare facility in Panvel. Headed by Chief Dentist Dr. Zafar Sheikh, the center specializes in advanced dental implants, laser dental surgeries, and complete aesthetic smile design restorations.",
+    "missionStatement": "To provide outstanding, world-class dental solutions combining cutting-edge technology with gentle, patient-focused delivery.",
+    "doctors": [
+      {
+        "name": "Dr. Zafar Sheikh",
+        "title": "Chief Dentist & Implantologist",
+        "qualification": "BDS, MDS (Prosthodontics & Implantology), Nair Dental College",
+        "experience": "13+ years",
+        "specialization": "Dental Implants & Cosmetic Smile Makeovers",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 99200 88776",
+      "emergencyPhone": "+91 99200 88777",
+      "appointmentPhoneRaw": "+919920088776",
+      "emergencyPhoneRaw": "+919920088777",
+      "email": "smile@drsheikhdental.com",
+      "supportEmail": "help@drsheikhdental.com",
+      "appointmentEmail": "book@drsheikhdental.com",
+      "whatsapp": "919920088776"
+    },
+    "address": {
+      "line1": "Suite 101, Elite Medical Hub, Matheran Road",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Matheran+Road+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Matheran+Road+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 7:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "By Appointment Only",
+      "summary": "Mon - Sat: 10:00 AM - 9:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DrSheikhDentalPanvel",
+      "twitter": "https://twitter.com/DrSheikhDental",
+      "instagram": "https://www.instagram.com/drsheikhdental",
+      "linkedin": "https://www.linkedin.com/company/dr-sheikh-dental-clinic",
+      "youtube": "https://www.youtube.com/@DrSheikhDental"
+    },
+    "services": [
+      {
+        "icon": "fas fa-tooth",
+        "title": "Dental Implants",
+        "description": "Permanent, strong, and highly natural-looking tooth replacements utilizing the finest biocompatible titanium components."
+      },
+      {
+        "icon": "fas fa-wand-magic-sparkles",
+        "title": "Cosmetic Smile Makeover",
+        "description": "Advanced veneers, clear aligners, and Zoom teeth whitening procedures to drastically uplift your dental aesthetics."
+      },
+      {
+        "icon": "fas fa-shield",
+        "title": "Painless Root Canals",
+        "description": "State-of-the-art rotary root canal systems that efficiently eliminate tooth pain in minimal sitting times."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dr. Sheikh's Dental Clinic and Implant Centre in Panvel offers advanced implant treatments and dental makeovers by Dr. Zafar Sheikh.",
+      "metaKeywords": "Dental clinic Panvel, implant centre Navi Mumbai, Dr Zafar Sheikh, dentist Panvel, root canal"
+    }
+  },
+
+  "2830": {
+    "clinicName": "Dr. Mhatre Dental Clinic",
+    "tagline": "Trusted Family Dental Care",
+    "heroTitle": "Healthy Teeth,",
+    "heroTitleHighlight": "Beautiful Life",
+    "heroDescription": "Providing premium, gentle dental services for families across Panvel. Your oral comfort and health are our absolute priority.",
+    "established": "2008",
+    "yearsExperience": "18+",
+    "patientsTreated": "25k+",
+    "expertDoctors": "3+",
+    "satisfactionRate": "97%",
+    "rating": "4.8",
+    "reviewCount": "1,600+",
+    "aboutDescription": "Owned and operated by Chief Dentist Dr. Rupesh Mhatre, Dr. Mhatre Dental Clinic has been a cornerstone of dependable dental healthcare in Panvel for close to two decades. We emphasize preventative workflows and conservative dental health treatments.",
+    "missionStatement": "To supply affordable, premium dental care solutions tailored beautifully to look after every generation of your family.",
+    "doctors": [
+      {
+        "name": "Dr. Rupesh Mhatre",
+        "title": "Owner & Chief Dentist",
+        "qualification": "BDS, Government Dental College Mumbai",
+        "experience": "18+ years",
+        "specialization": "General Dentistry & Orthodontics",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98199 44332",
+      "emergencyPhone": "+91 98199 44333",
+      "appointmentPhoneRaw": "+919819944332",
+      "emergencyPhoneRaw": "+919819944333",
+      "email": "contact@drmhatredental.in",
+      "supportEmail": "care@drmhatredental.in",
+      "appointmentEmail": "appointments@drmhatredental.in",
+      "whatsapp": "919819944332"
+    },
+    "address": {
+      "line1": "Ground Floor, Mhatre Niwas, Near Takka Colony",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Takka+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Takka+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "9:00 AM - 1:00 PM, 4:30 PM - 8:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: Morning & Evening Shift Split"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DrMhatreDentalPanvel",
+      "twitter": "https://twitter.com/DrMhatreDental",
+      "instagram": "https://www.instagram.com/drmhatredental",
+      "linkedin": "https://www.linkedin.com/company/dr-mhatre-dental-clinic",
+      "youtube": "https://www.youtube.com/@DrMhatreDental"
+    },
+    "services": [
+      {
+        "icon": "fas fa-teeth-open",
+        "title": "Orthodontic Braces",
+        "description": "Metal and ceramic alignment options designed meticulously for children and adults to correct structural alignment."
+      },
+      {
+        "icon": "fas fa-shield-halved",
+        "title": "Family Oral Checkup",
+        "description": "Routine dental cleaning, tooth colored fillings, and preventative structural monitoring setups."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dr. Mhatre Dental Clinic in Panvel delivers exceptional restorative and orthodontic solutions under the care of Dr. Rupesh Mhatre.",
+      "metaKeywords": "Dr Rupesh Mhatre, dentist Panvel, dental clinic Navi Mumbai, family dentist, braces treatment"
+    }
+  },
+
+  "8311": {
+    "clinicName": "Dr. Sana's Family Clinic",
+    "tagline": "Compassionate Care for Every Generation",
+    "heroTitle": "Your Trusted,",
+    "heroTitleHighlight": "Health Partner",
+    "heroDescription": "Get comprehensive family medicine and health counseling in a friendly, comfortable local neighborhood setting.",
+    "established": "2019",
+    "yearsExperience": "7+",
+    "patientsTreated": "10k+",
+    "expertDoctors": "2+",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "620+",
+    "aboutDescription": "Dr. Sana's Family Clinic offers exceptional primary healthcare services in Panvel. Focused heavily on comprehensive pediatric tracking, general internal medicine diagnostics, and early chronic risk management.",
+    "missionStatement": "To make accessible primary clinical expertise consistently reliable and incredibly comforting for your entire household.",
+    "doctors": [
+      {
+        "name": "Dr. Sana Sheikh",
+        "title": "Chief Consultant Physician",
+        "qualification": "MBBS, DNB (Family Medicine), KEM Hospital Mumbai",
+        "experience": "8+ years",
+        "specialization": "General Family Medicine & Primary Care",
+        "image": "https://images.unsplash.com/photo-1594824813573-246434de83fb?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 91522 33445",
+      "emergencyPhone": "+91 91522 33446",
+      "appointmentPhoneRaw": "+919152233445",
+      "emergencyPhoneRaw": "+919152233446",
+      "email": "hello@drsanafamilyclinic.com",
+      "supportEmail": "care@drsanafamilyclinic.com",
+      "appointmentEmail": "book@drsanafamilyclinic.com",
+      "whatsapp": "9152233445"
+    },
+    "address": {
+      "line1": "Shop 10, Crystal Plaza, Khanda Colony",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Khanda+Colony+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Khanda+Colony+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 1:30 PM, 5:30 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DrSanasFamilyClinic",
+      "twitter": "https://twitter.com/DrSanaClinic",
+      "instagram": "https://www.instagram.com/drsanasfamilyclinic",
+      "linkedin": "https://www.linkedin.com/company/dr-sana-family-clinic",
+      "youtube": "https://www.youtube.com/@DrSanasFamilyClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-user-doctor",
+        "title": "General Consultation",
+        "description": "Comprehensive diagnostics, clinical check-ups, seasonal fever management, and therapeutic guidance plans."
+      },
+      {
+        "icon": "fas fa-baby",
+        "title": "Child Growth Monitoring",
+        "description": "Pediatric health assessments, safe vaccine administrative courses, and growth milestones tracking."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dr. Sana's Family Clinic in Khanda Colony, Panvel provides general health consultations and wellness checkups for all age brackets.",
+      "metaKeywords": "Dr Sana family clinic, clinic Panvel, doctor in Khanda colony, family health care, general physician"
+    }
+  }
+}
