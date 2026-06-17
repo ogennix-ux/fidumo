@@ -70,7 +70,7 @@
             border-radius: 4px;
         }
 
-        /* Navigation Layout Fixed */
+        /* Navigation */
         .navbar {
             position: fixed;
             top: 0;
@@ -95,7 +95,6 @@
             justify-content: space-between;
             align-items: center;
             height: 80px;
-            width: 100%;
         }
 
         .logo {
@@ -103,7 +102,6 @@
             align-items: center;
             gap: 12px;
             text-decoration: none;
-            flex-shrink: 0;
         }
 
         .logo-icon {
@@ -119,23 +117,20 @@
             box-shadow: var(--shadow);
         }
 
-        /* Safe, isolated logo wrapping */
-        nav .logo-text, 
-        header .logo-text {
+        .logo-text {
             display: flex;
             flex-direction: column;
-            max-width: 180px !important; /* Strict boundary */
+            max-width: 220px; /* Binds logo width directly to avoid overflow */
         }
-        
-        nav .logo-title, 
-        header .logo-title {
+
+        .logo-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.3rem !important; /* Slightly smaller to fit gracefully */
+            font-size: 1.4rem;
             font-weight: 700;
             color: var(--primary);
-            line-height: 1.2 !important;
-            white-space: normal !important; /* Explicitly scoped only to the title */
-            word-break: keep-all; /* Prevents splitting a single word in half */
+            line-height: 1.2;
+            white-space: normal; /* Safely wraps into a second line if name is long */
+            word-wrap: break-word;
         }
 
         .logo-subtitle {
@@ -148,11 +143,9 @@
 
         .nav-links {
             display: flex;
-            gap: 2rem;
+            gap: 2.5rem;
             list-style: none;
             align-items: center;
-            margin: 0;
-            padding: 0;
         }
 
         .nav-links a {
@@ -161,7 +154,6 @@
             font-weight: 500;
             font-size: 0.95rem;
             position: relative;
-            white-space: nowrap;
             transition: var(--transition);
         }
 
@@ -193,7 +185,6 @@
             border-radius: 50px;
             font-weight: 600;
             box-shadow: var(--shadow);
-            white-space: nowrap;
             transition: var(--transition);
         }
 
@@ -621,6 +612,86 @@
         .service-link:hover {
             gap: 10px;
             color: var(--secondary);
+        }
+
+        /* Doctors Section Styling Layout */
+        .doctors {
+            background: var(--bg-white);
+        }
+        
+        .doctors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .doctor-card {
+            background: var(--bg-light);
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        .doctor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary-light);
+        }
+
+        .doctor-image-box {
+            position: relative;
+            aspect-ratio: 1/1;
+            overflow: hidden;
+            background: var(--border);
+        }
+
+        .doctor-image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .doctor-card:hover .doctor-image-box img {
+            transform: scale(1.05);
+        }
+
+        .doctor-meta-badge {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            background: rgba(15, 76, 129, 0.9);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            backdrop-filter: blur(4px);
+        }
+
+        .doctor-details-info {
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .doctor-details-info h3 {
+            font-size: 1.3rem;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .doctor-details-info .specialty {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .doctor-details-info .education {
+            font-size: 0.85rem;
+            color: var(--text-light);
         }
 
         /* Gallery Section */
@@ -1309,36 +1380,31 @@
             transform: translateY(0);
         }
 
-        /* Responsive Media Queries */
+        /* Mobile Responsive Breakpoints */
         @media (max-width: 1024px) {
-            .hero-container, .about-grid, .appointment-wrapper, .contact-grid {
+            .hero-container,
+            .about-grid,
+            .appointment-wrapper,
+            .contact-grid {
                 grid-template-columns: 1fr;
                 gap: 3rem;
             }
+
             .hero-shapes {
                 display: none;
             }
+
             .about-images {
                 max-width: 600px;
                 margin: 0 auto;
             }
+
             .appointment-info {
                 position: static;
             }
+
             .footer-grid {
                 grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 991px) {
-            .nav-links {
-                gap: 1.25rem;
-            }
-        }
-
-        @media (min-width: 769px) {
-            .nav-links {
-                display: flex !important;
             }
         }
 
@@ -1356,36 +1422,46 @@
                 box-shadow: var(--shadow-lg);
                 border-top: 1px solid var(--border);
             }
+
             .nav-links.active {
                 display: flex;
             }
+
             .mobile-menu-btn {
                 display: block;
             }
+
             .hero {
                 min-height: auto;
                 padding: 120px 0 4rem;
             }
+
             .hero-stats {
                 flex-direction: column;
                 gap: 1.5rem;
                 align-items: center;
                 text-align: center;
             }
+
             .hero-buttons {
                 flex-direction: column;
                 align-items: stretch;
             }
+
             .hero-buttons .btn {
                 justify-content: center;
             }
+
             .hero-image-frame {
                 max-width: 320px;
                 margin: 0 auto;
             }
+
             .image-decoration {
                 display: none;
             }
+
+            /* Core absolute layer control adjustments for smaller windows */
             .floating-card {
                 position: static;
                 width: 100%;
@@ -1393,18 +1469,23 @@
                 animation: none;
                 box-shadow: var(--shadow);
             }
+
             .floating-card-1 {
                 margin-top: 1.25rem;
             }
+
             .floating-card-2 {
                 margin-top: 0.75rem;
             }
+
             .about-features {
                 grid-template-columns: 1fr;
             }
+
             .about-images {
                 padding: 0 0.5rem;
             }
+
             .about-experience {
                 position: static;
                 display: block;
@@ -1413,29 +1494,36 @@
                 left: auto;
                 top: auto;
             }
+
             .about-img-secondary {
                 width: 45%;
                 bottom: -15px;
                 right: -10px;
                 border-width: 3px;
             }
+
             .testimonials-grid {
                 grid-template-columns: 1fr;
             }
+
             .form-row {
                 grid-template-columns: 1fr;
             }
+
             .footer-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
+
             .footer-bottom {
                 flex-direction: column;
                 text-align: center;
             }
+
             section {
                 padding: 4rem 0;
             }
+
             .container {
                 padding: 0 1.5rem;
             }
@@ -1455,10 +1543,12 @@
             z-index: 9999;
             transition: opacity 0.5s ease, visibility 0.5s ease;
         }
+
         .loader.hidden {
             opacity: 0;
             visibility: hidden;
         }
+
         .loader-spinner {
             width: 50px;
             height: 50px;
@@ -1467,6 +1557,7 @@
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
+
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
@@ -1489,9 +1580,11 @@
             border-left: 4px solid var(--secondary);
             max-width: 400px;
         }
+
         .toast.show {
             transform: translateX(0);
         }
+
         .toast-icon {
             width: 40px;
             height: 40px;
@@ -1504,15 +1597,18 @@
             font-size: 1.25rem;
             flex-shrink: 0;
         }
+
         .toast-content h4 {
             color: var(--text-dark);
             font-size: 1rem;
             margin-bottom: 2px;
         }
+
         .toast-content p {
             color: var(--text-light);
             font-size: 0.875rem;
         }
+
         .toast-close {
             background: none;
             border: none;
@@ -1523,6 +1619,7 @@
             margin-left: auto;
             transition: var(--transition);
         }
+
         .toast-close:hover {
             color: var(--text-dark);
         }
@@ -1543,30 +1640,27 @@
         <button class="toast-close" id="toastClose"><i class="fas fa-times"></i></button>
     </div>
 
-    <header class="navbar">
+    <header class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
                 <div class="logo-icon">
-                    <i class="fas fa-clinic-medical"></i>
+                    <i class="fas fa-heartbeat"></i>
                 </div>
                 <div class="logo-text">
-                    <span class="logo-title" id="navClinicName">Vitality Medical Centre</span>
-                    <span class="logo-subtitle" id="navClinicTagline">Expert Care</span>
+                    <span class="logo-title" id="navLogoTitle">Vitality Medical Centre</span>
+                    <span class="logo-subtitle" id="navLogoSubtitle">Healthcare</span>
                 </div>
             </a>
-
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#doctors">Our Doctors</a></li>
-                <li><a href="#testimonials">Reviews</a></li>
-                <li><a href="#contact" class="nav-cta">Book Appointment</a></li>
-            </ul>
-
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
                 <i class="fas fa-bars"></i>
             </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Our Doctors</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#appointment" class="nav-cta">Book Appointment</a></li>
+            </ul>
         </div>
     </header>
 
@@ -1579,52 +1673,48 @@
         <div class="hero-container">
             <div class="hero-content fade-in">
                 <div class="hero-badge">
-                    <i class="fas fa-star"></i>
-                    <span id="heroBadgeText">Top-Rated Multi-Speciality Clinic in India</span>
+                    <i class="fas fa-star"></i> <span id="heroBadgeText">Top-Rated Medical Centre in India</span>
                 </div>
                 <h1 id="heroTitle">Your Health Is Our <span>Top Priority</span></h1>
-                <p class="hero-description" id="heroDescription">Experience world-class healthcare with India's leading medical experts. We offer compassionate care, modern facilities, and comprehensive treatments customized to your lifestyle.</p>
+                <p class="hero-description" id="heroDesc">Experience world-class healthcare with experienced professionals, advanced medical technologies, and a patient-first compassionate treatment framework.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-calendar-alt"></i> Book Appointment
-                    </a>
-                    <a href="#services" class="btn btn-outline">
-                        Our Services
-                    </a>
+                    <a href="#appointment" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book Appointment</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <span class="stat-number" id="statDoctors">15+</span>
+                        <span class="stat-number" id="statDoctors">20+</span>
                         <span class="stat-label">Specialist Doctors</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number" id="statPatients">10,000+</span>
+                        <span class="stat-number" id="statPatients">50k+</span>
                         <span class="stat-label">Happy Patients</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number" id="statExperience">99%</span>
-                        <span class="stat-label">Success Rate</span>
+                        <span class="stat-number" id="statExperience">15+</span>
+                        <span class="stat-label">Years Experience</span>
                     </div>
                 </div>
             </div>
+            
             <div class="hero-image-wrapper fade-in">
                 <div class="hero-image-frame">
-                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=80" alt="Modern Medical Clinic Interior" class="hero-image" id="heroImage">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80" alt="Doctor" class="hero-image" id="heroImg">
                     <div class="image-decoration"></div>
                     
                     <div class="floating-card floating-card-1">
                         <div class="floating-icon"><i class="fas fa-user-md"></i></div>
                         <div class="floating-text">
-                            <strong id="floatCard1Title">Expert Doctors</strong>
-                            <span id="floatCard1Sub">24/7 Virtual Support</span>
+                            <strong id="floatCard1Title">Dr. Arvind Sharma</strong>
+                            <span id="floatCard1Desc">Chief Medical Officer</span>
                         </div>
                     </div>
-
+                    
                     <div class="floating-card floating-card-2">
-                        <div class="floating-icon"><i class="fas fa-award"></i></div>
+                        <div class="floating-icon" style="background: #fffbeb; color: #fbbf24;"><i class="fas fa-star"></i></div>
                         <div class="floating-text">
-                            <strong id="floatCard2Title">Certified Clinic</strong>
-                            <span id="floatCard2Sub">National Health Standards</span>
+                            <strong id="floatCard2Title">4.9 / 5.0 Rating</strong>
+                            <span id="floatCard2Desc">From 2,000+ Reviews</span>
                         </div>
                     </div>
                 </div>
@@ -1635,11 +1725,23 @@
     <section class="services" id="services">
         <div class="container">
             <div class="section-header fade-in">
-                <span class="section-label">Our Specialities</span>
-                <h2 class="section-title">Comprehensive Medical Care</h2>
-                <p class="section-subtitle">We provide a full range of medical services managed by qualified clinical professionals to keep your family healthy.</p>
+                <span class="section-label">Our Services</span>
+                <h2 class="section-title" id="servicesSectionTitle">Comprehensive Healthcare Services</h2>
+                <p class="section-subtitle" id="servicesSectionSubtitle">Providing top-tier clinical operations tailored to match all your personal and specialized medical needs safely.</p>
             </div>
-            <div class="services-grid" id="servicesContainer">
+            <div class="services-grid" id="servicesGrid">
+                </div>
+        </div>
+    </section>
+
+    <section class="doctors" id="doctors">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-label">Our Specialists</span>
+                <h2 class="section-title" id="doctorsSectionTitle">Meet Our Expert Doctors</h2>
+                <p class="section-subtitle" id="doctorsSectionSubtitle">Highly qualified professional consultants dedicated entirely to keeping you and your family in perfect safety and wellness.</p>
+            </div>
+            <div class="doctors-grid" id="doctorsGrid">
                 </div>
         </div>
     </section>
@@ -1647,11 +1749,11 @@
     <section class="gallery" id="gallery">
         <div class="container">
             <div class="section-header fade-in">
-                <span class="section-label">Our Facility</span>
-                <h2 class="section-title">A Glimpse of Our Clinic</h2>
-                <p class="section-subtitle">Take a virtual tour of our modern, fully equipped healthcare infrastructure designed for patient safety and comfort.</p>
+                <span class="section-label">Our Clinic</span>
+                <h2 class="section-title" id="gallerySectionTitle">A Glimpse of Our Centre</h2>
+                <p class="section-subtitle" id="gallerySectionSubtitle">Take a visual tour of our modern infrastructure, safe laboratory stations, and comfortable spaces built around healing care.</p>
             </div>
-            <div class="gallery-grid" id="galleryContainer">
+            <div class="gallery-grid" id="galleryGrid">
                 </div>
         </div>
     </section>
@@ -1660,139 +1762,97 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-images fade-in">
-                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Doctor consulting patient" class="about-img-main" id="aboutImgMain">
-                    <img src="https://images.unsplash.com/photo-1584515933487-78021db4a8f4?auto=format&fit=crop&w=400&q=80" alt="Medical Lab Equipment" class="about-img-secondary" id="aboutImgSecondary">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Medical Centre Internal" class="about-img-main" id="aboutImgMain">
+                    <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=400&q=80" alt="Patient Care" class="about-img-secondary" id="aboutImgSec">
                     <div class="about-experience">
-                        <span class="years" id="aboutExpYears">12+</span>
-                        <span class="text">Years of Excellence</span>
+                        <span class="years" id="aboutExpYears">15+</span>
+                        <span class="text">Years of<br>Excellence</span>
                     </div>
                 </div>
                 <div class="about-content fade-in">
                     <span class="section-label">About Us</span>
-                    <h2 id="aboutTitle">We Are Committed To Superior Clinical Quality</h2>
-                    <p id="aboutDescription1">Since our inception, we have been delivering exceptional diagnostic, therapeutic, and preventive healthcare options to families across India. Our approach combines clinical excellence with personal dedication.</p>
-                    <div class="about-features">
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span id="aboutFeature1">Advanced Emergency Care Panels</span>
+                    <h2 id="aboutTitle">We Are Committed to Better Healthcare</h2>
+                    <p id="aboutDesc">We offer advanced multi-specialty expertise engineered to provide premium tracking diagnostics and precise patient therapies safely. Our legacy is built upon continuous service care, experienced talent channels, and community trust.</p>
+                    <div class="about-features" id="aboutFeaturesContainer">
                         </div>
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span id="aboutFeature2">In-House Advanced Pharmacy Network</span>
-                        </div>
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span id="aboutFeature3">Ultra-Modern Laboratory Equipment</span>
-                        </div>
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span id="aboutFeature4">Easy Digital Medical History Tracking</span>
-                        </div>
-                    </div>
                     <div class="about-mission">
-                        <h4 id="aboutMissionTitle">Our Core Mission</h4>
-                        <p id="aboutMissionText">"To make premium clinical assets and medical advice safe, continuous, straightforward, and affordable for every layer of Indian society."</p>
+                        <h4 id="aboutMissionTitle">Our Mission Statement</h4>
+                        <p id="aboutMissionDesc">"To extend human longevity and quality wellness parameters by administering empathetic clinical treatments with accessible standards across the country."</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="services" id="doctors">
-        <div class="container">
-            <div class="section-header fade-in">
-                <span class="section-label">Medical Staff</span>
-                <h2 class="section-title">Meet Our Experienced Doctors</h2>
-                <p class="section-subtitle">Our clinical leadership comprises highly certified doctors, researchers, and specialists dedicated to your well-being.</p>
-            </div>
-            <div class="services-grid" id="doctorsContainer">
-                </div>
-        </div>
-    </section>
-
-    <section class="testimonials" id="testimonials">
-        <div class="container">
-            <div class="section-header fade-in">
-                <span class="section-label">Patient Feedback</span>
-                <h2 class="section-title">Reviews From Happy Families</h2>
-                <p class="section-subtitle">Read firsthand reviews from individuals who trusted us with their diagnoses and experienced successful treatments.</p>
-            </div>
-            <div class="testimonials-grid" id="testimonialsContainer">
-                </div>
-        </div>
-    </section>
-
-    <section class="appointment" id="contact">
+    <section class="appointment" id="appointment">
         <div class="container">
             <div class="appointment-wrapper">
                 <div class="appointment-info fade-in">
-                    <span class="section-label">Get In Touch</span>
-                    <h2>Need Consultation? Book an Appointment</h2>
-                    <p>Fill out the configuration form to schedule a slot. Our patient coordination desk will reach out over text or call within 15 minutes to finalize details.</p>
+                    <span class="section-label">Appointments</span>
+                    <h2 id="appointmentTitle">Schedule Your Consultation Visit</h2>
+                    <p id="appointmentDesc">Skip long lobby queues. Fill out our responsive real-time reservation desk routing and a staff coordinator will lock in your target hour block immediately.</p>
                     
                     <div class="contact-cards">
                         <div class="contact-card">
                             <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
                             <div class="contact-card-info">
-                                <h4>Call Center Hotline</h4>
+                                <h4>Emergency Assistance Contact</h4>
                                 <p id="contactPhone">+91 98765 43210</p>
                             </div>
                         </div>
                         <div class="contact-card">
                             <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
                             <div class="contact-card-info">
-                                <h4>Email Operations Desk</h4>
+                                <h4>Email Correspondence Helpdesk</h4>
                                 <p id="contactEmail">support@vitalitymedical.in</p>
-                            </div>
-                        </div>
-                        <div class="contact-card">
-                            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
-                            <div class="contact-card-info">
-                                <h4>Clinic Physical Premises</h4>
-                                <p id="contactAddress">Metro Plaza, Sector 15, HSR Layout, Bengaluru, Karnataka - 560102</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="appointment-form-wrapper fade-in">
                     <div class="form-header">
-                        <h3>Patient Information Form</h3>
-                        <p>All records are safely encrypted under local private data laws.</p>
+                        <h3>Secure Your Booking Slot</h3>
+                        <p>Fill out the fields accurately to finalize scheduling details.</p>
                     </div>
-                    <form id="appointmentForm">
+                    <form id="bookingForm" onsubmit="handleFormSubmission(event)">
                         <div class="form-group">
-                            <label class="form-label" for="userName">Full Legal Name</label>
-                            <input type="text" id="userName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                            <label class="form-label" for="clientName">Full Legal Patient Name</label>
+                            <input type="text" id="clientName" class="form-input" placeholder="Enter first and last name" required>
                         </div>
                         <div class="form-row">
                             <div class="form-group">
-                                <label class="form-label" for="userPhone">Active Mobile No.</label>
-                                <input type="tel" id="userPhone" class="form-input" placeholder="e.g. +91 9876543210" required>
+                                <label class="form-label" for="clientPhone">Active Phone Number</label>
+                                <input type="tel" id="clientPhone" class="form-input" placeholder="Include country prefix code" required>
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="userEmail">Email Address</label>
-                                <input type="email" id="userEmail" class="form-input" placeholder="e.g. rahul@gmail.com" required>
+                                <label class="form-label" for="clientEmail">Email ID (For Confirmations)</label>
+                                <input type="email" id="clientEmail" class="form-input" placeholder="name@domain.com" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group">
-                                <label class="form-label" for="appointmentDate">Preferred Date</label>
-                                <input type="date" id="appointmentDate" class="form-input" required>
+                                <label class="form-label" for="bookingDept">Choose Medical Department</label>
+                                <select id="bookingDept" class="form-select" required>
+                                    <option value="" disabled selected>Select specialty field</option>
+                                    <option value="General Consultation">General Consultation</option>
+                                    <option value="Dental Care Operations">Dental Care Operations</option>
+                                    <option value="Physiotherapy Treatments">Physiotherapy Treatments</option>
+                                    <option value="Cardiology Diagnostics">Cardiology Diagnostics</option>
+                                    <option value="Pediatrics Checkup">Pediatrics Checkup</option>
+                                </select>
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="serviceSelect">Medical Department</label>
-                                <select id="serviceSelect" class="form-select" required>
-                                    <option value="" disabled selected>Select a Department</option>
-                                    </select>
+                                <label class="form-label" for="bookingDate">Preferred Calendar Day</label>
+                                <input type="date" id="bookingDate" class="form-input" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="userMessage">Brief Symptoms / Notes (Optional)</label>
-                            <textarea id="userMessage" class="form-textarea" placeholder="Tell us about your health concerns..."></textarea>
+                            <label class="form-label" for="clientMsg">Symptoms or Additional Notes (Optional)</label>
+                            <textarea id="clientMsg" class="form-textarea" placeholder="Briefly specify condition history if applicable..."></textarea>
                         </div>
                         <button type="submit" class="form-submit">
-                            <i class="fas fa-paper-plane"></i> Register Appointment Slot
+                            <i class="fas fa-paper-plane"></i> Submit Request Structure
                         </button>
                     </form>
                 </div>
@@ -1800,78 +1860,87 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-label">Our Location</span>
+                <h2 class="section-title" id="contactSectionTitle">Get in Touch With Us Today</h2>
+                <p class="section-subtitle" id="contactSectionSubtitle">Locate our physical branches easily via active geospatial coordinate navigation frames.</p>
+            </div>
             <div class="contact-grid">
-                <div class="map-container fade-in">
-                    <iframe id="mapIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3888.750239274291!2d77.6409191!3d12.9231478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae148d4eec54bf%3A0x125b2943799cc09b!2sHSR+Layout%2C+Bengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1625000000000" allowfullscreen="" loading="lazy"></iframe>
-                </div>
                 <div class="contact-details fade-in">
+                    <div class="contact-detail-card">
+                        <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-detail-content">
+                            <h4>Physical Street Address</h4>
+                            <p id="addressText">Plot 45, Healthcare Sector, Tech City, Mumbai, Maharashtra - 400001, India</p>
+                        </div>
+                    </div>
                     <div class="contact-detail-card">
                         <div class="contact-detail-icon"><i class="fas fa-clock"></i></div>
                         <div class="contact-detail-content">
-                            <h4>Working Clinical Hours</h4>
-                            <ul class="hours-list" id="timingsList">
-                                <li><span class="day">Monday - Friday:</span> <span class="time">08:00 AM - 08:00 PM</span></li>
-                                <li><span class="day">Saturday:</span> <span class="time">09:00 AM - 06:00 PM</span></li>
-                                <li><span class="day">Sunday:</span> <span class="time">Emergency Consultation Only</span></li>
-                            </ul>
+                            <h4>Weekly Operational Hours</h4>
+                            <ul class="hours-list" id="hoursList">
+                                </ul>
                         </div>
                     </div>
-                    <div class="contact-detail-card">
-                        <div class="contact-detail-icon"><i class="fab fa-whatsapp"></i></div>
-                        <div class="contact-detail-content">
-                            <h4>Instant WhatsApp Booking</h4>
-                            <p style="margin-bottom: 0.5rem;">Skip the queues entirely. Text our official corporate account via WhatsApp instantly.</p>
-                            <a href="#" target="_blank" class="service-link" id="whatsappBtn">Chat on WhatsApp <i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
+                </div>
+                <div class="map-container fade-in" id="mapWrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.798414441093!2d72.8336306!3d18.9402517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU2JzI0LjkiTiA3MsKwNTAnMDEuMSJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
+    <a href="#" class="floating-card" id="whatsappBtn" target="_blank" rel="noopener" style="position: fixed; bottom: 2rem; left: 2rem; background: #25d366; color: white; padding: 0.75rem 1.25rem; border-radius: 50px; z-index: 999; animation: float 3s ease-in-out infinite; text-decoration: none; font-weight:600; font-size:0.95rem;">
+        <i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i> WhatsApp Us Chat
+    </a>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="#" class="logo" style="margin-bottom: 1.5rem;">
-                        <div class="logo-icon"><i class="fas fa-clinic-medical"></i></div>
-                        <div class="logo-text"><span class="logo-title" style="color:white;" id="footerClinicName">Vitality Medical Centre</span></div>
+                    <a href="#" class="logo" style="margin-bottom: 1rem; display: inline-flex;">
+                        <div class="logo-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-title" id="footerLogoTitle" style="color: white;">Vitality Medical</span>
+                        </div>
                     </a>
-                    <p id="footerDescription">Providing high-standard diagnostic checks, family medicine, and multi-speciality consultations across urban and local health hubs.</p>
+                    <p id="footerBrandDesc">Delivering premium clinical infrastructure and accurate diagnoses metrics to safe-keep public wellbeing communities with ethical foundations.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook Link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter Link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram Link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn Link"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="footer-column">
-                    <h4>Quick Links</h4>
+                    <h4>Quick Resource Links</h4>
                     <ul class="footer-links">
-                        <li><a href="#home">Home Base</a></li>
-                        <li><a href="#services">Specialities</a></li>
-                        <li><a href="#about">About History</a></li>
-                        <li><a href="#doctors">Our Staff</a></li>
-                        <li><a href="#contact">Contact Form</a></li>
+                        <li><a href="#">Home Base</a></li>
+                        <li><a href="#services">Clinical Specialties</a></li>
+                        <li><a href="#doctors">Physicians Board</a></li>
+                        <li><a href="#about">Information History</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4>Services Offered</h4>
-                    <ul class="footer-links" id="footerServicesList">
+                    <h4>Medical Departments</h4>
+                    <ul class="footer-links">
                         <li><a href="#services">General Medicine</a></li>
-                        <li><a href="#services">Dental Procedures</a></li>
-                        <li><a href="#services">Pediatrics Desk</a></li>
-                        <li><a href="#services">Physiotherapy Gym</a></li>
+                        <li><a href="#services">Dental Restorations</a></li>
+                        <li><a href="#services">Physiotherapy Rehab</a></li>
+                        <li><a href="#services">Cardiology Screening</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4>Emergency Help</h4>
+                    <h4>Support Helpdesk</h4>
                     <ul class="footer-links">
-                        <li><a href="#contact" style="font-weight:700; color:var(--secondary);">Ambulance Dispatch</a></li>
-                        <li><a href="#contact">Home Sample Pickups</a></li>
-                        <li><a href="#contact">Telemedicine Slots</a></li>
+                        <li><a href="#appointment">Booking Channels</a></li>
+                        <li><a href="#contact">Geographical Directions</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Protocol Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -1879,129 +1948,117 @@
                 <p id="footerCopyright">&copy; 2026 Vitality Medical Centre. All rights reserved.</p>
                 <div class="footer-bottom-links">
                     <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="#">Terms of Use</a>
                 </div>
             </div>
         </div>
     </footer>
 
     <script>
-    (async function() {
-        'use strict';
+    (async function initializeMedicalPlatform() {
+        "use strict";
 
-        // --- Core Helpers ---
-        function setHtml(id, html) {
-            const el = document.getElementById(id);
-            if (el) el.innerHTML = html;
-        }
-        function setText(id, text) {
-            const el = document.getElementById(id);
-            if (el) el.textContent = text;
-        }
-        function setAttr(id, attr, val) {
-            const el = document.getElementById(id);
-            if (el) el.setAttribute(attr, val);
-        }
-        function escapeHtml(str) {
-            if (!str) return '';
-            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-        }
-
-        const DEFAULT_CLIENT_ID = "sabka-clinic";
+        // --- Core ID Selector Routing Logic ---
+        const DEFAULT_CLIENT_ID = "vitality_centre";
 
         function getClientId() {
-            const params = new URLSearchParams(window.location.search);
-            return params.get('id') || DEFAULT_CLIENT_ID;
+            const urlParams = new URLSearchParams(window.location.search);
+            let id = urlParams.get('id') || urlParams.get('clinic') || window.location.pathname.split('/').pop().replace('.html', '');
+            if (!id || id === 'index' || id === '') {
+                id = DEFAULT_CLIENT_ID;
+            }
+            return id.toLowerCase().trim();
         }
 
-        // --- Loader Logic ---
+        // --- DOM Elements Reference Mapping ---
+        const navbar = document.getElementById('navbar');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinksContainer = document.getElementById('navLinks');
+        const loader = document.getElementById('loader');
+        const toast = document.getElementById('toast');
+        const toastClose = document.getElementById('toastClose');
+        const navLinksArray = document.querySelectorAll('.nav-links a');
+
+        // --- Loader Termination Lifecycle Trigger ---
         window.addEventListener('load', () => {
-            const loader = document.getElementById('loader');
             if (loader) {
-                setTimeout(() => {
-                    loader.classList.add('hidden');
-                }, 400);
+                loader.classList.add('hidden');
             }
         });
+        // Backup safety check clear if execution blocks drop triggers
+        setTimeout(() => { if (loader) loader.classList.add('hidden'); }, 1200);
 
-        // --- Interactive Navigation Scroll Effects ---
-        const navbar = document.querySelector('.navbar');
+        // --- Responsive Mobile Navbar Toggling Engine ---
+        if (mobileMenuBtn && navLinksContainer) {
+            mobileMenuBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                navLinksContainer.classList.toggle('active');
+                const icon = mobileMenuBtn.querySelector('i');
+                if (icon) {
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-times');
+                }
+            });
+
+            document.addEventListener('click', (e) => {
+                if (navLinksContainer.classList.contains('active') && !navLinksContainer.contains(e.target) && e.target !== mobileMenuBtn) {
+                    navLinksContainer.classList.remove('active');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    if (icon) {
+                        icon.classList.add('fa-bars');
+                        icon.classList.remove('fa-times');
+                    }
+                }
+            });
+        }
+
+        // Navigation Link Auto-Collapse Trigger 
+        navLinksArray.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinksContainer && navLinksContainer.classList.contains('active')) {
+                    navLinksContainer.classList.remove('active');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    if (icon) {
+                        icon.classList.add('fa-bars');
+                        icon.classList.remove('fa-times');
+                    }
+                }
+            });
+        });
+
+        // --- Navbar Header Transformation & Active Section Highlights Tracking ---
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 20) {
+            if (window.scrollY > 40) {
                 navbar.classList.add('scrolled');
             } else {
                 navbar.classList.remove('scrolled');
             }
-            
-            // Track Active Sections
-            const sections = document.querySelectorAll('section, header');
-            const navItems = document.querySelectorAll('.nav-links a');
-            
+
             let currentSectionId = '';
+            const sections = document.querySelectorAll('section, header, hero');
+            const scrollPos = window.scrollY + 120;
+
             sections.forEach(sec => {
-                const top = sec.offsetTop - 120;
+                const top = sec.offsetTop;
                 const height = sec.offsetHeight;
-                if (window.scrollY >= top && window.scrollY < top + height) {
-                    currentSectionId = sec.getAttribute('id');
+                if (scrollPos >= top && scrollPos < top + height) {
+                    currentSectionId = sec.getAttribute('id') || '';
                 }
             });
 
-            navItems.forEach(item => {
-                item.classList.remove('active');
-                if (item.getAttribute('href') === `#${currentSectionId}`) {
-                    item.classList.add('active');
+            navLinksArray.forEach(link => {
+                link.classList.remove('active');
+                const href = link.getAttribute('href');
+                if (href === '#' && (currentSectionId === 'home' || currentSectionId === '')) {
+                    link.classList.add('active');
+                } else if (href === `#${currentSectionId}`) {
+                    link.classList.add('active');
                 }
             });
         });
 
-        // --- Mobile Menu Dropdown Toggle ---
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const navLinks = document.getElementById('navLinks');
-        if (mobileMenuBtn && navLinks) {
-            mobileMenuBtn.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-                const icon = mobileMenuBtn.querySelector('i');
-                if(navLinks.classList.contains('active')) {
-                    icon.className = 'fas fa-times';
-                } else {
-                    icon.className = 'fas fa-bars';
-                }
-            });
-
-            // Close mobile menu layout on item clicks
-            navLinks.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    mobileMenuBtn.querySelector('i').className = 'fas fa-bars';
-                });
-            });
-        }
-
-        // --- Form Processing & Toast Event Notifications ---
-        const form = document.getElementById('appointmentForm');
-        const toast = document.getElementById('toast');
-        const toastClose = document.getElementById('toastClose');
-
-        if (form) {
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                if (toast) {
-                    toast.classList.add('show');
-                    form.reset();
-                    setTimeout(() => {
-                        toast.classList.remove('show');
-                    }, 5000);
-                }
-            });
-        }
-        if (toastClose && toast) {
-            toastClose.addEventListener('click', () => {
-                toast.classList.remove('show');
-            });
-        }
-
-        // --- Intersection Observer Setup for Fade-In Effects ---
-        const appearanceOptions = { threshold: 0.1, rootMargin: "0px 0px -50px 0px" };
+        // --- Interactivity Scroll Animation Observer Setup ---
+        const appearanceOptions = { threshold: 0.15, rootMargin: "0px 0px -40px 0px" };
         const appearanceObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -2011,174 +2068,194 @@
             });
         }, appearanceOptions);
 
-        // --- Dynamic Site Injections ---
+        // --- Reservation Engine Submission Actions Handler ---
+        window.handleFormSubmission = function(event) {
+            event.preventDefault();
+            if (toast) {
+                toast.classList.add('show');
+                document.getElementById('bookingForm').reset();
+                setTimeout(() => { toast.classList.remove('show'); }, 5000);
+            }
+        };
+
+        if (toastClose && toast) {
+            toastClose.addEventListener('click', () => {
+                toast.classList.remove('show');
+            });
+        }
+
+        // --- Safe HTML Sanitization Parsing Logic Utilities ---
+        function escapeHtml(text) {
+            if (!text) return '';
+            return text.toString()
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        // --- Site Elements Text Content Populations Hydrator Mapping ---
         function populateSite(data) {
-            const clinicName = data.clinicName || 'Sabka Clinic';
+            if (!data) return;
+
+            const clinicName = data.clinicName || 'Vitality Medical Centre';
+
+            // Universal target locator assignment utility closure
+            const setHtml = (id, html) => {
+                const el = document.getElementById(id);
+                if (el) el.innerHTML = html;
+            };
+            const setText = (id, txt) => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = txt;
+            };
+
+            // Page Header metadata update overrides
+            setText('pageTitle', `${clinicName} | Expert Healthcare You Can Trust`);
+            const metaDescEl = document.getElementById('metaDescription');
+            if (metaDescEl && data.hero?.description) metaDescEl.setAttribute('content', data.hero.description);
+
+            // Structural Text Parameters Mappings Injections
+            setText('navLogoTitle', clinicName);
+            setText('footerLogoTitle', clinicName);
             
-            // Document Metadata
-            document.title = `${clinicName} | Expert Healthcare You Can Trust`;
-            setAttr('metaDescription', 'content', data.metaDescription || '');
-            setAttr('metaKeywords', 'content', data.metaKeywords || '');
+            if (data.hero) {
+                setHtml('heroBadgeText', escapeHtml(data.hero.badgeText || 'Top-Rated Medical Centre'));
+                setHtml('heroTitle', data.hero.title || 'Your Health Is Our <span>Top Priority</span>');
+                setText('heroDesc', data.hero.description || '');
+                if (data.hero.stats) {
+                    setText('statDoctors', data.hero.stats.doctors || '20+');
+                    setText('statPatients', data.hero.stats.patients || '50k+');
+                    setText('statExperience', data.hero.stats.experience || '15+');
+                }
+                if (data.hero.image) {
+                    const heroImgEl = document.getElementById('heroImg');
+                    if (heroImgEl) heroImgEl.src = data.hero.image;
+                }
+                if (data.hero.floatingCard1) {
+                    setText('floatCard1Title', data.hero.floatingCard1.title || '');
+                    setText('floatCard1Desc', data.hero.floatingCard1.description || '');
+                }
+                if (data.hero.floatingCard2) {
+                    setText('floatCard2Title', data.hero.floatingCard2.title || '');
+                    setText('floatCard2Desc', data.hero.floatingCard2.description || '');
+                }
+            }
 
-            // Navigation Components
-            setText('navClinicName', clinicName);
-            setText('navClinicTagline', data.tagline || 'Aapka Apna Clinic');
-
-            // Hero Node Configuration
-            setText('heroBadgeText', data.hero?.badgeText || 'Trusted Healthcare Provider');
-            setHtml('heroTitle', data.hero?.title || 'Your Healthcare Solutions');
-            setText('heroDescription', data.hero?.description || '');
-            if (data.hero?.image) setAttr('heroImage', 'src', data.hero.image);
-            
-            setText('floatCard1Title', data.hero?.floatingCard1?.title || 'Expert Care');
-            setText('floatCard1Sub', data.hero?.floatingCard1?.subtitle || 'Clinical Staff');
-            setText('floatCard2Title', data.hero?.floatingCard2?.title || 'Modern Lab');
-            setText('floatCard2Sub', data.hero?.floatingCard2?.subtitle || 'Verified Hygiene');
-
-            setText('statDoctors', data.stats?.doctors || '10+');
-            setText('statPatients', data.stats?.patients || '5,000+');
-            setText('statExperience', data.stats?.experience || '10 yrs');
-
-            // Global Information Panels
-            setText('contactPhone', data.contact?.phone || '');
-            setText('contactEmail', data.contact?.email || '');
-            setText('contactAddress', data.contact?.address || '');
-            if (data.contact?.mapEmbedUrl) setAttr('mapIframe', 'src', data.contact.mapEmbedUrl);
-
-            // About Summary Blocks
-            setText('aboutExpYears', data.about?.experienceYears || '10+');
-            setText('aboutTitle', data.about?.title || 'About Us');
-            setText('aboutDescription1', data.about?.description || '');
-            setText('aboutFeature1', data.about?.features?.[0] || 'Quality Care');
-            setText('aboutFeature2', data.about?.features?.[1] || 'Modern Standards');
-            setText('aboutFeature3', data.about?.features?.[2] || 'Experienced Staff');
-            setText('aboutFeature4', data.about?.features?.[3] || 'Available Operations');
-            setText('aboutMissionTitle', data.about?.missionTitle || 'Our Mission');
-            setText('aboutMissionText', data.about?.missionText || '');
-            if (data.about?.imageMain) setAttr('aboutImgMain', 'src', data.about.imageMain);
-            if (data.about?.imageSecondary) setAttr('aboutImgSecondary', 'src', data.about.imageSecondary);
-
-            // Render Services Grid Container
-            const servicesContainer = document.getElementById('servicesContainer');
-            const selectOptions = document.getElementById('serviceSelect');
-            const footerServicesList = document.getElementById('footerServicesList');
-
-            if (servicesContainer && data.services) {
-                servicesContainer.innerHTML = '';
-                if (selectOptions) selectOptions.innerHTML = '<option value="" disabled selected>Select a Department</option>';
-                if (footerServicesList) footerServicesList.innerHTML = '';
-
-                data.services.forEach(srv => {
-                    const card = document.createElement('div');
-                    card.className = 'service-card fade-in visible'; // Set visible explicitly to render safely
-                    card.innerHTML = `
-                        <div class="service-icon"><i class="${srv.icon || 'fas fa-stethoscope'}"></i></div>
+            // Services Dynamic Loops Rendering
+            const servicesGrid = document.getElementById('servicesGrid');
+            if (servicesGrid && Array.isArray(data.services)) {
+                servicesGrid.innerHTML = data.services.map(srv => `
+                    <div class="service-card fade-in visible">
+                        <div class="service-icon"><i class="${escapeHtml(srv.icon || 'fas fa-check')}"></i></div>
                         <h3>${escapeHtml(srv.title)}</h3>
                         <p>${escapeHtml(srv.description)}</p>
-                        <a href="#contact" class="service-link">Book slot <i class="fas fa-arrow-right"></i></a>
-                    `;
-                    servicesContainer.appendChild(card);
-
-                    if (selectOptions) {
-                        const opt = document.createElement('option');
-                        opt.value = srv.title;
-                        opt.textContent = srv.title;
-                        selectOptions.appendChild(opt);
-                    }
-
-                    if (footerServicesList) {
-                        const li = document.createElement('li');
-                        li.innerHTML = `<a href="#services">${escapeHtml(srv.title)}</a>`;
-                        footerServicesList.appendChild(li);
-                    }
-                });
+                        <a href="#appointment" class="service-link">Book Channel <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                `).join('');
             }
 
-            // Render Gallery Media Components
-            const galleryContainer = document.getElementById('galleryContainer');
-            if (galleryContainer && data.gallery) {
-                galleryContainer.innerHTML = '';
-                data.gallery.forEach(img => {
-                    const item = document.createElement('div');
-                    item.className = 'gallery-item fade-in';
-                    item.innerHTML = `
-                        <img src="${img.url}" alt="${escapeHtml(img.caption)}">
-                        <div class="gallery-caption"><i class="fas fa-camera"></i> ${escapeHtml(img.caption)}</div>
-                    `;
-                    galleryContainer.appendChild(item);
-                    appearanceObserver.observe(item);
-                });
-            }
-
-            // Render Doctors Directory Cards
-            const doctorsContainer = document.getElementById('doctorsContainer');
-            if (doctorsContainer && data.doctors) {
-                doctorsContainer.innerHTML = '';
-                data.doctors.forEach(doc => {
-                    const card = document.createElement('div');
-                    card.className = 'service-card fade-in';
-                    card.style.textAlign = 'center';
-                    card.innerHTML = `
-                        <img src="${doc.image || 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=300&q=80'}" alt="${escapeHtml(doc.name)}" style="width:120px; height:120px; border-radius:50%; object-fit:cover; margin:0 auto 1.5rem; border:4px solid var(--primary-light);">
-                        <h3>${escapeHtml(doc.name)}</h3>
-                        <p style="color:var(--secondary); font-weight:600; margin-bottom:0.5rem;">${escapeHtml(doc.speciality)}</p>
-                        <p style="font-size:0.875rem;">${escapeHtml(doc.experience || '')}</p>
-                    `;
-                    doctorsContainer.appendChild(card);
-                    appearanceObserver.observe(card);
-                });
-            }
-
-            // Render Testimonials Grid Block
-            const testimonialsContainer = document.getElementById('testimonialsContainer');
-            if (testimonialsContainer && data.testimonials) {
-                testimonialsContainer.innerHTML = '';
-                data.testimonials.forEach(t => {
-                    const card = document.createElement('div');
-                    card.className = 'testimonial-card fade-in';
-                    card.innerHTML = `
-                        <div class="testimonial-stars">${'<i class="fas fa-star"></i>'.repeat(t.rating || 5)}</div>
-                        <p class="testimonial-text">"${escapeHtml(t.text)}"</p>
-                        <div class="testimonial-author">
-                            <img src="${t.avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80'}" alt="${escapeHtml(t.author)}" class="author-avatar">
-                            <div class="author-info">
-                                <h4>${escapeHtml(t.author)}</h4>
-                                <span>${escapeHtml(t.role || 'Patient')}</span>
-                            </div>
+            // Doctors Dynamic Loops Rendering
+            const doctorsGrid = document.getElementById('doctorsGrid');
+            if (doctorsGrid && Array.isArray(data.doctors)) {
+                doctorsGrid.innerHTML = data.doctors.map(doc => `
+                    <div class="doctor-card fade-in visible">
+                        <div class="doctor-image-box">
+                            <img src="${escapeHtml(doc.image || 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80')}" alt="${escapeHtml(doc.name)}">
+                            <div class="doctor-meta-badge">${escapeHtml(doc.experience || 'Expert')}</div>
                         </div>
-                    `;
-                    testimonialsContainer.appendChild(card);
-                    appearanceObserver.observe(card);
-                });
+                        <div class="doctor-details-info">
+                            <h3>${escapeHtml(doc.name)}</h3>
+                            <span class="specialty">${escapeHtml(doc.specialty)}</span>
+                            <span class="education">${escapeHtml(doc.education || '')}</span>
+                        </div>
+                    </div>
+                `).join('');
             }
 
-            // Timings Processing Loop
-            const timingsList = document.getElementById('timingsList');
-            if (timingsList && data.contact?.timings) {
-                timingsList.innerHTML = '';
-                Object.entries(data.contact.timings).forEach(([day, time]) => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span class="day">${escapeHtml(day)}:</span> <span class="time">${escapeHtml(time)}</span>`;
-                    timingsList.appendChild(li);
-                });
+            // Gallery Grid Presentation Loop Population
+            const galleryGrid = document.getElementById('galleryGrid');
+            if (galleryGrid && Array.isArray(data.gallery)) {
+                galleryGrid.innerHTML = data.gallery.map(img => `
+                    <div class="gallery-item fade-in visible">
+                        <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.caption || 'Clinic view')}">
+                        <div class="gallery-caption">
+                            <i class="fas fa-camera"></i> ${escapeHtml(img.caption || 'Vitality Centre Facility')}
+                        </div>
+                    </div>
+                `).join('');
             }
 
-            // Brand Footer Updates
-            setText('footerClinicName', clinicName);
-            if (data.footerDescription) setText('footerDescription', data.footerDescription);
-            setHtml('footerCopyright', `&copy; ${new Date().getFullYear()} ${escapeHtml(clinicName)}. All rights reserved.`);
+            // About Us Segment Populations Block Injections
+            if (data.about) {
+                setText('aboutTitle', data.about.title || '');
+                setText('aboutDesc', data.about.description || '');
+                setText('aboutExpYears', data.about.experienceYears || '15+');
+                if (data.about.missionTitle) setText('aboutMissionTitle', data.about.missionTitle);
+                if (data.about.missionDescription) setText('aboutMissionDesc', `"${data.about.missionDescription}"`);
+                
+                if (data.about.imageMain) {
+                    const imgMain = document.getElementById('aboutImgMain');
+                    if (imgMain) imgMain.src = data.about.imageMain;
+                }
+                if (data.about.imageSecondary) {
+                    const imgSec = document.getElementById('aboutImgSec');
+                    if (imgSec) imgSec.src = data.about.imageSecondary;
+                }
 
-            // WhatsApp Dispatcher Setup
+                const featuresContainer = document.getElementById('aboutFeaturesContainer');
+                if (featuresContainer && Array.isArray(data.about.features)) {
+                    featuresContainer.innerHTML = data.about.features.map(feat => `
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>${escapeHtml(feat)}</span>
+                        </div>
+                    `).join('');
+                }
+            }
+
+            // Contact Framework Variables Configurations mapping
+            if (data.contact) {
+                setText('contactPhone', data.contact.phone || '');
+                setText('contactEmail', data.contact.email || '');
+                setText('addressText', data.contact.address || '');
+                if (data.contact.brandDescription) setText('footerBrandDesc', data.contact.brandDescription);
+
+                const hoursList = document.getElementById('hoursList');
+                if (hoursList && Array.isArray(data.contact.hours)) {
+                    hoursList.innerHTML = data.contact.hours.map(hr => `
+                        <li>
+                            <span class="day">${escapeHtml(hr.day)}</span>
+                            <span class="time">${escapeHtml(hr.time)}</span>
+                        </li>
+                    `).join('');
+                }
+
+                if (data.contact.googleMapsEmbedUrl) {
+                    const mapWrapper = document.getElementById('mapWrapper');
+                    if (mapWrapper) {
+                        mapWrapper.innerHTML = `<iframe src="${escapeHtml(data.contact.googleMapsEmbedUrl)}" allowfullscreen="" loading="lazy"></iframe>`;
+                    }
+                }
+            }
+
+            setText('footerCopyright', `&copy; ${new Date().getFullYear()} ${escapeHtml(clinicName)}. All rights reserved.`);
+
+            // --- WhatsApp Integration Link Syncing Trigger ---
             const whatsappBtn = document.getElementById('whatsappBtn');
             if (whatsappBtn && data.contact?.whatsapp) {
                 const message = `Hello, I would like to book an appointment at ${clinicName}.`;
                 whatsappBtn.href = `https://wa.me/${data.contact.whatsapp}?text=${encodeURIComponent(message)}`;
             }
 
-            // Bind triggers on text blocks
-            document.querySelectorAll('.fade-in').forEach(el => appearanceObserver.observe(el));
+            // Register dynamic DOM layout views with intersection observers dynamically
+            document.querySelectorAll('.fade-in').forEach(el => {
+                appearanceObserver.observe(el);
+            });
         }
 
+        // --- Fetch & Execute Client Profile Payload Pipeline ---
         try {
             const response = await fetch('clients.json');
             if (!response.ok) throw new Error(`Failed to load clients.json (${response.status})`);
