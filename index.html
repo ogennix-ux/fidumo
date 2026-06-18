@@ -31,6 +31,7 @@
             --radius: 12px;
             --radius-lg: 20px;
             --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --navbar-height: 80px;
         }
 
         * {
@@ -41,7 +42,7 @@
 
         html {
             scroll-behavior: smooth;
-            scroll-padding-top: 80px;
+            scroll-padding-top: var(--navbar-height, 80px);
         }
 
         body {
@@ -90,11 +91,11 @@
         .nav-container {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 0.5rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            height: 80px;
+            min-height: 80px;
         }
 
         .logo {
@@ -102,6 +103,7 @@
             align-items: center;
             gap: 12px;
             text-decoration: none;
+            flex-shrink: 0;
         }
 
         .logo-icon {
@@ -136,11 +138,30 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-top: 2px;
+            max-width: 190px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Desktop only: show the full clinic name across multiple lines
+           instead of truncating it. Mobile keeps the single-line ellipsis
+           version above untouched. */
+        @media (min-width: 769px) {
+            .logo-subtitle {
+                max-width: 230px;
+                white-space: normal;
+                overflow: visible;
+                text-overflow: clip;
+                overflow-wrap: break-word;
+                line-height: 1.3;
+            }
         }
 
         .nav-links {
             display: flex;
-            gap: 2.5rem;
+            flex-wrap: nowrap;
+            gap: clamp(1rem, 2vw, 2.5rem);
             list-style: none;
             align-items: center;
         }
@@ -149,7 +170,8 @@
             text-decoration: none;
             color: var(--text-dark);
             font-weight: 500;
-            font-size: 0.95rem;
+            font-size: clamp(0.85rem, 1vw, 0.95rem);
+            white-space: nowrap;
             position: relative;
             transition: var(--transition);
         }
@@ -183,6 +205,8 @@
             font-weight: 600;
             box-shadow: var(--shadow);
             transition: var(--transition);
+            white-space: nowrap;
+            flex-shrink: 0;
         }
 
         .nav-cta::after {
@@ -212,7 +236,7 @@
             position: relative;
             background: linear-gradient(135deg, #0f4c81 0%, #0a3560 50%, #065f46 100%);
             overflow: hidden;
-            padding-top: 80px;
+            padding-top: var(--navbar-height, 80px);
         }
 
         .hero::before {
@@ -2207,6 +2231,20 @@
                 navbar.classList.remove('scrolled');
             }
         });
+
+        // Keep --navbar-height in sync with the navbar's actual rendered
+        // height (it can grow taller than 80px if a long clinic name wraps
+        // onto multiple lines on desktop), so the hero/scroll offset never
+        // gets covered.
+        function syncNavbarHeight() {
+            document.documentElement.style.setProperty('--navbar-height', navbar.offsetHeight + 'px');
+        }
+        syncNavbarHeight();
+        if ('ResizeObserver' in window) {
+            new ResizeObserver(syncNavbarHeight).observe(navbar);
+        } else {
+            window.addEventListener('resize', syncNavbarHeight);
+        }
 
         // Mobile menu
         function toggleMobileMenu() {
