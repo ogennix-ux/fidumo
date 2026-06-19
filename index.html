@@ -87,6 +87,8 @@
         .logo-title {
             font-family: 'Playfair Display', serif; font-size: 1.05rem;
             font-weight: 700; color: var(--primary);
+            max-width: 180px; overflow: hidden;
+            text-overflow: ellipsis; white-space: nowrap;
         }
 
         .nav-right { display: flex; align-items: center; gap: 10px; }
@@ -141,11 +143,11 @@
         }
         .hero-img-wrap img {
             width: 100%; height: 100%; object-fit: cover; object-position: top center;
-            opacity: 0.5;
+            opacity: 0.72;
         }
         .hero-img-overlay {
             position: absolute; inset: 0;
-            background: linear-gradient(to bottom, rgba(10,53,96,0.2) 0%, rgba(10,53,96,0.9) 100%);
+            background: linear-gradient(to bottom, rgba(10,53,96,0.1) 0%, rgba(10,53,96,0.75) 100%);
         }
         .hero-img-badge {
             position: absolute; bottom: 14px; left: 14px;
@@ -431,7 +433,8 @@
             border: 2px solid var(--border); border-radius: 12px;
             font-family: inherit; font-size: 0.9rem;
             color: var(--text-dark); background: var(--bg-light);
-            transition: var(--transition); -webkit-appearance: none;
+            transition: var(--transition);
+            -webkit-appearance: none;
         }
         .form-input:focus, .form-select:focus, .form-textarea:focus {
             outline: none; border-color: var(--primary);
