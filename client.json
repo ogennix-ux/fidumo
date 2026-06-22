@@ -1,0 +1,1361 @@
+{
+  "5821": {
+    "clinicName": "Joshi Panchkarma Clinic",
+    "tagline": "Authentic Ayurveda for Holistic Healing",
+    "heroTitle": "Restore Balance,",
+    "heroTitleHighlight": "Revitalize Life",
+    "heroDescription": "Experience the profound healing power of traditional Ayurveda and customized Panchkarma therapies under the expert guidance of our certified physicians.",
+    "established": "2015",
+    "yearsExperience": "11+",
+    "patientsTreated": "12k+",
+    "expertDoctors": "3+",
+    "satisfactionRate": "97%",
+    "rating": "4.9",
+    "reviewCount": "850+",
+    "aboutDescription": "Located in Panvel, Joshi Panchkarma Clinic is dedicated to promoting natural wellness through personalized Ayurvedic treatments. Headed by Dr. Jyoti Anand Joshi, we combine ancient wisdom with modern diagnostic insights to treat the root cause of chronic ailments.",
+    "missionStatement": "To provide high-quality, authentic Ayurvedic healthcare that fosters long-term physical, mental, and spiritual well-being.",
+    "doctors": [
+      {
+        "name": "Dr. Jyoti Anand Joshi",
+        "title": "Chief Doctor & Founder",
+        "qualification": "BAMS, MD (Ayurveda), Mumbai University",
+        "experience": "15+ years",
+        "specialization": "Panchkarma & Chronic Disease Management",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 90049 09660",
+      "emergencyPhone": "+91 98200 12346",
+      "appointmentPhoneRaw": "+919004909660",
+      "emergencyPhoneRaw": "+919820012346",
+      "email": "info@joshipanchkarma.com",
+      "supportEmail": "care@joshipanchkarma.com",
+      "appointmentEmail": "book@joshipanchkarma.com",
+      "whatsapp": "919004909660"
+    },
+    "address": {
+      "line1": "1st Floor, Shanti Arcade, Near Panvel Station",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Panvel+Station+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Panvel+Station+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "9:00 AM - 1:00 PM, 5:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 9:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/JoshiPanchkarmaPanvel",
+      "twitter": "https://twitter.com/JoshiAyurPanvel",
+      "instagram": "https://www.instagram.com/joshipanchkarmaclinic",
+      "linkedin": "https://www.linkedin.com/company/joshi-panchkarma-clinic",
+      "youtube": "https://www.youtube.com/@JoshiPanchkarma"
+    },
+    "services": [
+      {
+        "icon": "fas fa-spa",
+        "title": "Panchkarma Therapy",
+        "description": "Complete body detoxification and rejuvenation therapies including Vamana, Virechana, and Basti tailored to your body type."
+      },
+      {
+        "icon": "fas fa-leaf",
+        "title": "Ayurvedic Consultation",
+        "description": "In-depth pulse diagnosis (Nadi Pariksha) and constitutional analysis to design customized diet and lifestyle plans."
+      },
+      {
+        "icon": "fas fa-mortar-pestle",
+        "title": "Chronic Pain Management",
+        "description": "Effective traditional treatments for arthritis, sciatica, spondylitis, and long-term joint disorders without side effects."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Joshi Panchkarma Clinic in Panvel offers authentic Ayurvedic treatments, detoxification, and wellness consultations under Dr. Jyoti Anand Joshi.",
+      "metaKeywords": "Ayurveda Panvel, Panchkarma clinic Navi Mumbai, Dr Jyoti Anand Joshi, Ayurvedic doctor Panvel, detox treatment"
+    }
+  },
+
+  "7419": {
+    "clinicName": "Ojas Ayurved and Panchkarma Clinic",
+    "tagline": "Pure Healing, Natural Living",
+    "heroTitle": "Experience the Cleanse,",
+    "heroTitleHighlight": "Feel the Vitality",
+    "heroDescription": "Step into a world of pure therapeutic healing. Ojas Ayurved combines highly effective Panchkarma detoxes with specialized herbal care.",
+    "established": "2018",
+    "yearsExperience": "8+",
+    "patientsTreated": "8k+",
+    "expertDoctors": "2+",
+    "satisfactionRate": "96%",
+    "rating": "4.8",
+    "reviewCount": "510+",
+    "aboutDescription": "Ojas Ayurved and Panchkarma Clinic is a premier wellness center in Panvel, spearheaded by Chief Doctor Tanay Mudgal. We specialize in stress management, metabolic disorders, and pure Panchkarma cleansing practices.",
+    "missionStatement": "To bridge traditional Ayurvedic modalities with modern health requirements, delivering reliable and chemical-free healthcare solutions.",
+    "doctors": [
+      {
+        "name": "Dr. Tanay Mudgal",
+        "title": "Chief Doctor",
+        "qualification": "BAMS, Panchkarma Specialist, Podar Ayurvedic College",
+        "experience": "10+ years",
+        "specialization": "Metabolic Disorders & Detoxification",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 96533 30552",
+      "emergencyPhone": "+91 98333 45679",
+      "appointmentPhoneRaw": "+919653330552",
+      "emergencyPhoneRaw": "+919833345679",
+      "email": "contact@ojasayurved.in",
+      "supportEmail": "support@ojasayurved.in",
+      "appointmentEmail": "appointments@ojasayurved.in",
+      "whatsapp": "919653330552"
+    },
+    "address": {
+      "line1": "Shop 4-5, Ozone Heights, Sector 15",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 8:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 8:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/OjasAyurvedPanvel",
+      "twitter": "https://twitter.com/OjasAyurved",
+      "instagram": "https://www.instagram.com/ojasayurved",
+      "linkedin": "https://www.linkedin.com/company/ojas-ayurved",
+      "youtube": "https://www.youtube.com/@OjasAyurved"
+    },
+    "services": [
+      {
+        "icon": "fas fa-seedling",
+        "title": "Stress & Anxiety Relief",
+        "description": "Soothing Shirodhara and herbal therapies to balance the nervous system and clear mental exhaustion."
+      },
+      {
+        "icon": "fas fa-weight-scale",
+        "title": "Weight Management",
+        "description": "Udvartana (herbal powder massage) paired with specialized dietary programs for safe weight correction."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Ojas Ayurved and Panchkarma Clinic in Panvel offers expert wellness consultations and deep detox therapies by Dr. Tanay Mudgal.",
+      "metaKeywords": "Ojas Ayurved, Dr Tanay Mudgal, Panchkarma Panvel, Ayurvedic detox, wellness clinic Navi Mumbai"
+    }
+  },
+
+  "4910": {
+    "clinicName": "Shree Gajanan Ayurvedic Chikitsalaya and Panchkarma Centre",
+    "tagline": "Traditional Wisdom for Modern Wellness",
+    "heroTitle": "Time-Tested Remedies,",
+    "heroTitleHighlight": "True Wellness",
+    "heroDescription": "Restore your constitutional equilibrium with authentic herbs, classical therapies, and deep systemic detoxification programs.",
+    "established": "2010",
+    "yearsExperience": "16+",
+    "patientsTreated": "15k+",
+    "expertDoctors": "4+",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "1,100+",
+    "aboutDescription": "Shree Gajanan Ayurvedic Chikitsalaya and Panchkarma Centre is a comprehensive healing institution based in Panvel. Headed by Chief Doctor Neeraj Dandekar, our center focuses on complex autoimmune issues, digestive health, and preventive wellness therapies.",
+    "missionStatement": "To provide classical, evidence-backed Ayurvedic medicine and flawless Panchkarma procedures with unwavering compassion.",
+    "doctors": [
+      {
+        "name": "Dr. Neeraj Dandekar",
+        "title": "Chief Doctor & Director",
+        "qualification": "MD (Ayurveda Medicine), Tilak Ayurved Mahavidyalaya",
+        "experience": "16+ years",
+        "specialization": "Autoimmune & Digestive Disorders",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 96577 22015",
+      "emergencyPhone": "+91 91677 88991",
+      "appointmentPhoneRaw": "+919657722015",
+      "emergencyPhoneRaw": "+919167788991",
+      "email": "info@gajananayurved.com",
+      "supportEmail": "care@gajananayurved.com",
+      "appointmentEmail": "book@gajananayurved.com",
+      "whatsapp": "919657722015"
+    },
+    "address": {
+      "line1": "Gajanan Heritage Building, Near Shivaji Chowk",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Shivaji+Chowk+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Shivaji+Chowk+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "8:30 AM - 8:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "9:00 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 8:30 AM - 8:30 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ShreeGajananAyurvedPanvel",
+      "twitter": "https://twitter.com/GajananAyurved",
+      "instagram": "https://www.instagram.com/shreegajananayurved",
+      "linkedin": "https://www.linkedin.com/company/shree-gajanan-ayurvedic-chikitsalaya",
+      "youtube": "https://www.youtube.com/@ShreeGajananAyurved"
+    },
+    "services": [
+      {
+        "icon": "fas fa-prescription-bottle-medical",
+        "title": "Gastrointestinal Care",
+        "description": "Targeted Ayurvedic treatments for IBS, chronic acidity, and deep rooted metabolic disorders."
+      },
+      {
+        "icon": "fas fa-child-dress",
+        "title": "Skin & Hair Therapy",
+        "description": "Psoriasis, eczema, and severe hair fall solutions managed through external therapies and internal purification."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Shree Gajanan Ayurvedic Chikitsalaya in Panvel provides high-grade classical Ayurvedic care under Chief Doctor Neeraj Dandekar.",
+      "metaKeywords": "Shree Gajanan Ayurvedic, Dr Neeraj Dandekar, Panchkarma Panvel, Ayurvedic clinic Navi Mumbai, health center"
+    }
+  },
+
+  "9642": {
+    "clinicName": "Dr. Sheikh's Dental Clinic and Implant Centre",
+    "tagline": "Your Smile, Our Passion",
+    "heroTitle": "Advanced Dentistry,",
+    "heroTitleHighlight": "Flawless Smiles",
+    "heroDescription": "Step into a state-of-the-art facility featuring microscopic precision dental treatments, premium implants, and pain-free execution.",
+    "established": "2013",
+    "yearsExperience": "13+",
+    "patientsTreated": "20k+",
+    "expertDoctors": "5+",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "1,450+",
+    "aboutDescription": "Dr. Sheikh's Dental Clinic and Implant Centre is an elite oral healthcare facility in Panvel. Headed by Chief Dentist Dr. Zafar Sheikh, the center specializes in advanced dental implants, laser dental surgeries, and complete aesthetic smile design restorations.",
+    "missionStatement": "To provide outstanding, world-class dental solutions combining cutting-edge technology with gentle, patient-focused delivery.",
+    "doctors": [
+      {
+        "name": "Dr. Zafar Sheikh",
+        "title": "Chief Dentist & Implantologist",
+        "qualification": "BDS, MDS (Prosthodontics & Implantology), Nair Dental College",
+        "experience": "13+ years",
+        "specialization": "Dental Implants & Cosmetic Smile Makeovers",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 97734 06886",
+      "emergencyPhone": "+91 99200 88777",
+      "appointmentPhoneRaw": "+919773406886",
+      "emergencyPhoneRaw": "+919920088777",
+      "email": "smile@drsheikhdental.com",
+      "supportEmail": "help@drsheikhdental.com",
+      "appointmentEmail": "book@drsheikhdental.com",
+      "whatsapp": "919773406886"
+    },
+    "address": {
+      "line1": "Suite 101, Elite Medical Hub, Matheran Road",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Matheran+Road+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Matheran+Road+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 7:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "By Appointment Only",
+      "summary": "Mon - Sat: 10:00 AM - 9:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DrSheikhDentalPanvel",
+      "twitter": "https://twitter.com/DrSheikhDental",
+      "instagram": "https://www.instagram.com/drsheikhdental",
+      "linkedin": "https://www.linkedin.com/company/dr-sheikh-dental-clinic",
+      "youtube": "https://www.youtube.com/@DrSheikhDental"
+    },
+    "services": [
+      {
+        "icon": "fas fa-tooth",
+        "title": "Dental Implants",
+        "description": "Permanent, strong, and highly natural-looking tooth replacements utilizing the finest biocompatible titanium components."
+      },
+      {
+        "icon": "fas fa-wand-magic-sparkles",
+        "title": "Cosmetic Smile Makeover",
+        "description": "Advanced veneers, clear aligners, and Zoom teeth whitening procedures to drastically uplift your dental aesthetics."
+      },
+      {
+        "icon": "fas fa-shield",
+        "title": "Painless Root Canals",
+        "description": "State-of-the-art rotary root canal systems that efficiently eliminate tooth pain in minimal sitting times."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dr. Sheikh's Dental Clinic and Implant Centre in Panvel offers advanced implant treatments and dental makeovers by Dr. Zafar Sheikh.",
+      "metaKeywords": "Dental clinic Panvel, implant centre Navi Mumbai, Dr Zafar Sheikh, dentist Panvel, root canal"
+    }
+  },
+
+  "3044": {
+    "clinicName": "Dentplus Multispeciality Dental Clinic",
+    "tagline": "Advanced Endodontics & Complete Oral Wellness",
+    "heroTitle": "Expert Dentistry,",
+    "heroTitleHighlight": "Painless Precision",
+    "heroDescription": "Experience painless single-sitting root canals, dental implants, and smile alignment programs utilizing modern global protocols.",
+    "established": "2017",
+    "yearsExperience": "9+",
+    "patientsTreated": "11k+",
+    "expertDoctors": "2",
+    "satisfactionRate": "97%",
+    "rating": "4.8",
+    "reviewCount": "490+",
+    "aboutDescription": "Dentplus Multispeciality Dental Clinic is a technologically advanced dental facility based in Panchratna Chowk, Old Panvel. Led by Chief Endodontist Dr. Atish Deepak Korwar, the clinic excels in treating complex root infections, cosmetic correction, and comprehensive oral surgeries safely.",
+    "missionStatement": "To ensure elite dental wellness using pain-free operational equipment and state-of-the-art structural materials.",
+    "doctors": [
+      {
+        "name": "Dr. Atish Deepak Korwar",
+        "title": "Chief Endodontist & Founder",
+        "qualification": "BDS, MDS (Conservative Dentistry & Endodontics)",
+        "experience": "10+ years",
+        "specialization": "Single-Sitting Root Canals & Digital Smile Design",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 97698 86861",
+      "emergencyPhone": "+91 97698 86861",
+      "appointmentPhoneRaw": "+919769886861",
+      "emergencyPhoneRaw": "+919769886861",
+      "email": "care@dentpluspanvel.in",
+      "supportEmail": "help@dentpluspanvel.in",
+      "appointmentEmail": "book@dentpluspanvel.in",
+      "whatsapp": "919769886861"
+    },
+    "address": {
+      "line1": "Shop No. 3, Shrikrishna Apartment, Panchratna Chowk, Old Panvel",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Panchratna+Chowk+Old+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Panchratna+Chowk+Old+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 1:00 PM, 5:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DentplusPanvel",
+      "twitter": "https://twitter.com/DentplusPanvel",
+      "instagram": "https://www.instagram.com/dentpluspanvel",
+      "linkedin": "https://www.linkedin.com/company/dentplus-multispeciality-dental-clinic",
+      "youtube": "https://www.youtube.com/@DentplusPanvel"
+    },
+    "services": [
+      {
+        "icon": "fas fa-shield-halved",
+        "title": "Laser Root Canal Treatment",
+        "description": "Highly accurate micro-endodontic therapeutic processing minimizing operational discomfort and healing times."
+      },
+      {
+        "icon": "fas fa-teeth",
+        "title": "Orthodontic Aligners",
+        "description": "Clear dental aligners and customized brackets to seamlessly repair irregular structural setups safely."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dentplus Multispeciality Dental Clinic in Old Panvel offers advanced cosmetic and endodontic dental treatments under Dr. Atish Korwar.",
+      "metaKeywords": "Dental clinic Panvel, dentist in Old Panvel, Dr Atish Korwar, root canal specialist, dental implants"
+    }
+  },
+
+  "4122": {
+    "clinicName": "More's Healthcare",
+    "tagline": "Your Trusted Community Partner for General Wellness",
+    "heroTitle": "Reliable Diagnoses,",
+    "heroTitleHighlight": "Empathetic Healing",
+    "heroDescription": "Accessible primary care medicine, comprehensive seasonal disease relief, and chronic ailment tracking solutions for all age groups.",
+    "established": "2015",
+    "yearsExperience": "11+",
+    "patientsTreated": "18k+",
+    "expertDoctors": "1",
+    "satisfactionRate": "96%",
+    "rating": "4.7",
+    "reviewCount": "530+",
+    "aboutDescription": "Conveniently situated in Podi-1, Sector 15, More's Healthcare serves as a reliable local medical destination in Panvel. Spearheaded by Dr. Sachin More, the practice is engineered around swift diagnostic sorting, comprehensive preventative lifestyle tracking, and stable primary counseling setups.",
+    "missionStatement": "To simplify accessible therapeutic support pathways for urban local residential zones cleanly.",
+    "doctors": [
+      {
+        "name": "Dr. Sachin More",
+        "title": "Chief General Physician",
+        "qualification": "MBBS, General Practitioner",
+        "experience": "12+ years",
+        "specialization": "Family Medicine & Infectious Disease Management",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98214 36521",
+      "emergencyPhone": "+91 98214 36521",
+      "appointmentPhoneRaw": "+919821436521",
+      "emergencyPhoneRaw": "+919821436521",
+      "email": "contact@moreshealthcare.in",
+      "supportEmail": "help@moreshealthcare.in",
+      "appointmentEmail": "visit@moreshealthcare.in",
+      "whatsapp": "919821436521"
+    },
+    "address": {
+      "line1": "Plot No. 24, Podi-1, Sector 15",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Podi+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+15+Podi+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "09:30 AM - 1:00 PM, 5:30 PM - 9:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "09:30 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 09:30 AM - 9:30 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/MoresHealthcare",
+      "twitter": "https://twitter.com/MoresHealthcare",
+      "instagram": "https://www.instagram.com/moreshealthcare",
+      "linkedin": "https://www.linkedin.com/company/mores-healthcare",
+      "youtube": "https://www.youtube.com/@MoresHealthcare"
+    },
+    "services": [
+      {
+        "icon": "fas fa-stethoscope",
+        "title": "General Health Consultation",
+        "description": "Routine medical diagnostic processing, metabolic sugar/hypertension handling, and structural therapeutic screening."
+      },
+      {
+        "icon": "fas fa-kit-medical",
+        "title": "Preventative Medical Checks",
+        "description": "Comprehensive corporate wellness evaluations, systemic basic screenings, and seasonal vaccine programs."
+      }
+    ],
+    "seo": {
+      "metaDescription": "More's Healthcare in Sector 15 Panvel offers professional primary medicine consults and family health management by Dr. Sachin More.",
+      "metaKeywords": "General physician Panvel, clinic in Sector 15 Panvel, Dr Sachin More, family doctor Navi Mumbai"
+    }
+  },
+
+  "5167": {
+    "clinicName": "Pacific Diagnostics And Multispeciality Dental Clinic",
+    "tagline": "Integrated Laboratory Diagnostics and Dental Restorations",
+    "heroTitle": "Precise Diagnostics,",
+    "heroTitleHighlight": "Elite Dentistry",
+    "heroDescription": "Access accurate computerized blood testing, specialized pathology metrics, and complete oral surgical implants inside one modern clinic hub.",
+    "established": "2018",
+    "yearsExperience": "8+",
+    "patientsTreated": "13k+",
+    "expertDoctors": "3",
+    "satisfactionRate": "97%",
+    "rating": "4.8",
+    "reviewCount": "380+",
+    "aboutDescription": "Positioned strategically inside Old Panvel City, Pacific Diagnostics and Multispeciality Dental Clinic pairs automated blood diagnostic processing with exceptional structural dental restoration paths. Managed effectively by Chief Dentist Dr. Swapnil S. Patil, the facility features rapid processing tools for family healthcare planning.",
+    "missionStatement": "To provide highly dynamic, reliable health diagnostics alongside beautiful structural smile restoration profiles.",
+    "doctors": [
+      {
+        "name": "Dr. Swapnil S. Patil",
+        "title": "Chief Dentist & Implantologist",
+        "qualification": "BDS, Cosmetic Dentistry Specialist",
+        "experience": "9+ years",
+        "specialization": "Oral Implants & Micro-Aesthetic Composite Fillings",
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 91671 52344",
+      "emergencyPhone": "+91 91671 52344",
+      "appointmentPhoneRaw": "+919167152344",
+      "emergencyPhoneRaw": "+919167152344",
+      "email": "pacificdiagnostics@gmail.com",
+      "supportEmail": "help@pacificdiagnostics.in",
+      "appointmentEmail": "lab@pacificdiagnostics.in",
+      "whatsapp": "919167152344"
+    },
+    "address": {
+      "line1": "Shop No. 5-6, Shanti Tower, Old Panvel City Center",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Old+Panvel+City+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Old+Panvel+City+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "08:30 AM - 8:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "08:30 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 08:30 AM - 8:30 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/PacificDiagnosticsPanvel",
+      "twitter": "https://twitter.com/PacificDiagnos",
+      "instagram": "https://www.instagram.com/pacificdiagnostics",
+      "linkedin": "https://www.linkedin.com/company/pacific-diagnostics-dental",
+      "youtube": "https://www.youtube.com/@PacificDiagnostics"
+    },
+    "services": [
+      {
+        "icon": "fas fa-microscope",
+        "title": "Pathological Laboratory Testing",
+        "description": "Complete blood tallies, corporate metabolic panels, endocrine profiling, and automated urine assessments."
+      },
+      {
+        "icon": "fas fa-tooth",
+        "title": "Dental Implants & Surgery",
+        "description": "Permanent titanium tooth roots anchoring, complex wisdom extraction protocols, and smile brightening."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Pacific Diagnostics And Multispeciality Dental Clinic in Old Panvel offers pathology tests and cosmetic dentistry under Dr. Swapnil S. Patil.",
+      "metaKeywords": "Dental clinic Old Panvel, diagnostics lab Panvel, blood test Navi Mumbai, Dr Swapnil Patil, dentist"
+    }
+  },
+
+  "8591": {
+    "clinicName": "Dwarkai Clinic",
+    "tagline": "Family Healthcare & Expert Clinical Nutrition",
+    "heroTitle": "Holistic Medicine,",
+    "heroTitleHighlight": "Targeted Nutrition",
+    "heroDescription": "Comprehensive medical consultation merged with scientific dietary mapping to reverse chronic lifestyle disorders naturally.",
+    "established": "2019",
+    "yearsExperience": "7+",
+    "patientsTreated": "9k+",
+    "expertDoctors": "1",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "310+",
+    "aboutDescription": "Situated in Sector 9, Khanda Colony, Dwarkai Clinic delivers a highly synchronized operational setup targeting general family health. Founded and led by Dr. Prajakta Phulkar, the clinic combines evidence-based internal medicine diagnostics with structured clinical nutrition tracks to safely manage metabolic disorders.",
+    "missionStatement": "To empower local family tracking networks through accurate clinical intervention and sound lifestyle rebalancing layouts.",
+    "doctors": [
+      {
+        "name": "Dr. Prajakta Phulkar",
+        "title": "Chief Consultant & Clinical Dietitian",
+        "qualification": "MBBS, PG Diploma in Clinical Nutrition & Dietetics",
+        "experience": "8+ years",
+        "specialization": "Family Medicine, Metabolic Reversal & Medical Nutrition",
+        "image": "https://images.unsplash.com/photo-1594824813573-246434de83fb?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 85912 60751",
+      "emergencyPhone": "+91 85912 60751",
+      "appointmentPhoneRaw": "+918591260751",
+      "emergencyPhoneRaw": "+918591260751",
+      "email": "contact@dwarkaiclinic.in",
+      "supportEmail": "care@dwarkaiclinic.in",
+      "appointmentEmail": "book@dwarkaiclinic.in",
+      "whatsapp": "918591260751"
+    },
+    "address": {
+      "line1": "Shop No. 12, Shiv Heights, Sector 9, Khanda Colony",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+9+Khanda+Colony+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+9+Khanda+Colony+Panvel+Navi+Mumbai+Maharashtra+410206"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 1:00 PM, 5:30 PM - 8:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 8:30 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DwarkaiClinicPanvel",
+      "twitter": "https://twitter.com/DwarkaiClinic",
+      "instagram": "https://www.instagram.com/dwarkaiclinic",
+      "linkedin": "https://www.linkedin.com/company/dwarkai-clinic",
+      "youtube": "https://www.youtube.com/@DwarkaiClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-user-doctor",
+        "title": "Primary Care Consultation",
+        "description": "Seasonal illnesses management, standard health indexing, and diagnostic triage processing."
+      },
+      {
+        "icon": "fas fa-apple-juice",
+        "title": "Therapeutic Diet Planning",
+        "description": "Custom nutritional blueprints for insulin control, lipid modifications, and sustainable weight management."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dwarkai Clinic in Khanda Colony, Panvel provides general health checkups and therapeutic lifestyle diets under Dr. Prajakta Phulkar.",
+      "metaKeywords": "Clinic in Khanda colony, family doctor Panvel, Dr Prajakta Phulkar, clinical nutritionist Navi Mumbai"
+    }
+  },
+
+  "2001": {
+    "clinicName": "Chirayu Clinic",
+    "tagline": "Comprehensive Family Medicine & Preventative Diagnostics",
+    "heroTitle": "Precision Medical Care,",
+    "heroTitleHighlight": "Every Single Day",
+    "heroDescription": "Fast diagnostic processing, targeted treatment courses, and compassionate disease tracking layouts for the entire family under trusted local physicians.",
+    "established": "2016",
+    "yearsExperience": "10+",
+    "patientsTreated": "25k+",
+    "expertDoctors": "2",
+    "satisfactionRate": "97%",
+    "rating": "4.8",
+    "reviewCount": "640+",
+    "aboutDescription": "Chirayu Clinic is a high-volume medical hub based in Panvel City. Spearheaded by Dr. Sandeep S. Yadav, the center is a trusted cornerstone for local residential areas, focusing heavily on modern treatment procedures and swift clinical triage.",
+    "missionStatement": "To provide high-quality primary medical care seamlessly, reducing wait times and building long-term health stability.",
+    "doctors": [
+      {
+        "name": "Dr. Sandeep S. Yadav",
+        "title": "Chief General Physician",
+        "qualification": "MBBS, MD (Internal Medicine)",
+        "experience": "13+ years",
+        "specialization": "Infectious Diseases & Metabolic Ailment Control",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 97699 18451",
+      "emergencyPhone": "+91 97699 18451",
+      "appointmentPhoneRaw": "+919769918451",
+      "emergencyPhoneRaw": "+919769918451",
+      "email": "appointments@chirayuclinic.in",
+      "supportEmail": "care@chirayuclinic.in",
+      "appointmentEmail": "book@chirayuclinic.in",
+      "whatsapp": "919769918451"
+    },
+    "address": {
+      "line1": "Shop No. 4, Commercial Arcade, Near Main Market",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/?q=Panvel+Station+Navi+Mumbai+Maharashtra+4102066",
+      "googleMapsLink": "https://maps.google.com/?q=Panvel+Station+Navi+Mumbai+Maharashtra+4102067"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "09:00 AM - 1:00 PM, 5:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "09:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 09:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ChirayuClinicPanvel",
+      "twitter": "https://twitter.com/ChirayuPanvel",
+      "instagram": "https://www.instagram.com/chirayuclinicpanvel",
+      "linkedin": "https://www.linkedin.com/company/chirayu-clinic-panvel",
+      "youtube": "https://www.youtube.com/@ChirayuClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-user-doctor",
+        "title": "Acute Care Diagnostics",
+        "description": "Rapid testing and treatment protocols for seasonal flus, high fevers, and acute infectious conditions."
+      },
+      {
+        "icon": "fas fa-heart-pulse",
+        "title": "Chronic Condition Control",
+        "description": "Continuous, automated monitoring systems for blood pressure adjustments, diabetes mellitus, and thyroid balance."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Chirayu Clinic in Panvel offers top-tier primary medical consults and family health tracking under Dr. Sandeep S. Yadav.",
+      "metaKeywords": "General physician Panvel, Chirayu clinic, Dr Sandeep Yadav, family health Navi Mumbai"
+    }
+  },
+
+  "2002": {
+    "clinicName": "Lifeline Clinic",
+    "tagline": "Your 24/7 Shield for Comprehensive Family Medicine",
+    "heroTitle": "Trusted Healthcare,",
+    "heroTitleHighlight": "Immediate Support",
+    "heroDescription": "Get instant clinical consultation, emergency medical sorting, and structured family baseline wellness treatments inside a premium facility.",
+    "established": "2014",
+    "yearsExperience": "12+",
+    "patientsTreated": "32k+",
+    "expertDoctors": "4",
+    "satisfactionRate": "96%",
+    "rating": "4.7",
+    "reviewCount": "910+",
+    "aboutDescription": "Lifeline Clinic stands as a highly critical healthcare landmark in Panvel. Operating with a fully integrated team of general practitioners, the practice handles extensive walk-in queues and provides systematic, continuous family health charts.",
+    "missionStatement": "To provide stable, error-free diagnostic pathways and immediate healthcare assistance to local urban areas.",
+    "doctors": [
+      {
+        "name": "General Medical Staff",
+        "title": "Consulting Team Lead",
+        "qualification": "MBBS, BAMS Physicians",
+        "experience": "10+ years",
+        "specialization": "Emergency Triage & Family Care Systems",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 90226 77953",
+      "emergencyPhone": "+91 90226 77953",
+      "appointmentPhoneRaw": "+919022677953",
+      "emergencyPhoneRaw": "+919022677953",
+      "email": "info@lifelineclinicpanvel.in",
+      "supportEmail": "help@lifelineclinicpanvel.in",
+      "appointmentEmail": "slots@lifelineclinicpanvel.in",
+      "whatsapp": "919022677953"
+    },
+    "address": {
+      "line1": "Plot 12, Sector 10, Near Main Highway Intersection",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/?q=Panvel+Station+Navi+Mumbai+Maharashtra+4102068",
+      "googleMapsLink": "https://maps.google.com/?q=Panvel+Station+Navi+Mumbai+Maharashtra+4102069"
+    },
+    "hours": {
+      "weekdays": "Monday - Sunday",
+      "weekdayHours": "08:00 AM - 10:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "08:00 AM - 10:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "08:00 AM - 8:00 PM",
+      "summary": "Mon - Sun: 08:00 AM - 10:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/LifelineClinicPanvel",
+      "twitter": "https://twitter.com/LifelinePanvel",
+      "instagram": "https://www.instagram.com/lifelineclinicpanvel",
+      "linkedin": "https://www.linkedin.com/company/lifeline-clinic-panvel",
+      "youtube": "https://www.youtube.com/@LifelineClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-kit-medical",
+        "title": "Primary Health Care",
+        "description": "Routine diagnostic checking, immediate disease treatment setups, and preventative physical medicine routing."
+      },
+      {
+        "icon": "fas fa-truck-medical",
+        "title": "Urgent Medical Assistance",
+        "description": "Quick operational tracking and emergency stabilized medication delivery workflows for sudden illnesses."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Lifeline Clinic in Panvel delivers premium family medicine consultation and rapid diagnostic protocols around the clock.",
+      "metaKeywords": "Family clinic Panvel, Lifeline health, medical emergency Panvel, clinic Navi Mumbai"
+    }
+  },
+
+  "2003": {
+    "clinicName": "Saraswati Clinic",
+    "tagline": "Advanced Pediatric Medicine & Infant Healthcare Specialists",
+    "heroTitle": "Gentle Treatment,",
+    "heroTitleHighlight": "Healthy Childhoods",
+    "heroDescription": "Childcare management setups, specialized infant growth metrics analysis, and complete stress-free vaccination pathways.",
+    "established": "2013",
+    "yearsExperience": "13+",
+    "patientsTreated": "22k+",
+    "expertDoctors": "2",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "780+",
+    "aboutDescription": "Saraswati Clinic is the premier pediatric destination in Panvel. Orchestrated under Chief Pediatrician Dr. Amol S. Patil, the facility features an optimized queue setup preventing long waiting cycles for anxious parents.",
+    "missionStatement": "To provide outstanding child healthcare utilizing highly empathetic diagnostic strategies and strict sanitization rules.",
+    "doctors": [
+      {
+        "name": "Dr. Amol S. Patil",
+        "title": "Chief Pediatric Specialist",
+        "qualification": "MBBS, DCH (Diploma in Child Health), KEM Hospital Mumbai",
+        "experience": "14+ years",
+        "specialization": "Neonatal Care, Pediatric Nutrition & Growth Tracking",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98198 12384",
+      "emergencyPhone": "+91 98198 12384",
+      "appointmentPhoneRaw": "+919819812384",
+      "emergencyPhoneRaw": "+919819812384",
+      "email": "care@saraswaticlinic.in",
+      "supportEmail": "help@saraswaticlinic.in",
+      "appointmentEmail": "slots@saraswaticlinic.in",
+      "whatsapp": "919819812384"
+    },
+    "address": {
+      "line1": "Suite No. 3, Saraswati Heights, Near Shivaji Ground",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed0",
+      "googleMapsLink": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed1"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 1:30 PM, 6:00 PM - 9:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 3:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 9:30 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/SaraswatiPediatricPanvel",
+      "twitter": "https://twitter.com/SaraswatiChild",
+      "instagram": "https://www.instagram.com/saraswaticlinicchildcare",
+      "linkedin": "https://www.linkedin.com/company/saraswati-pediatric-clinic",
+      "youtube": "https://www.youtube.com/@SaraswatiPediatric"
+    },
+    "services": [
+      {
+        "icon": "fas fa-baby",
+        "title": "Newborn & Infant Tracking",
+        "description": "Comprehensive diagnostic monitoring evaluating neonatal neuro-development, motor tracking, and metabolic baselines."
+      },
+      {
+        "icon": "fas fa-syringe",
+        "title": "Painless Immunization",
+        "description": "Flawless deployment of modern, low-pain WHO standard dynamic vaccine protocols across precise timelines."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Saraswati Clinic in Panvel delivers specialist pediatric consulting, child nutrition setups, and routine vaccinations under Dr. Amol S. Patil.",
+      "metaKeywords": "Pediatrician Panvel, child specialist doctor, Dr Amol Patil, baby vaccination clinic"
+    }
+  },
+
+  "2004": {
+    "clinicName": "Dr. Patil's Clinic",
+    "tagline": "Elite Consulting Internal Medicine & Disease Interventions",
+    "heroTitle": "Expert Diagnoses,",
+    "heroTitleHighlight": "Lasting Wellness",
+    "heroDescription": "Advanced clinical diagnostics, long-term disease mapping matrices, and specialized senior consultations inside a modern setup.",
+    "established": "1998",
+    "yearsExperience": "28+",
+    "patientsTreated": "45k+",
+    "expertDoctors": "2",
+    "satisfactionRate": "98%",
+    "rating": "4.9",
+    "reviewCount": "1820+",
+    "aboutDescription": "Dr. Patil's Clinic is a premier consulting medical practice based near Thana Naka, Panvel. Under Senior Consultant Physician Dr. Suhas Patil, the clinic handles complex clinical issues, diagnostic errors from other centers, and comprehensive physical screenings.",
+    "missionStatement": "To provide deeply accurate medical insight and honest therapeutic pathways with maximum clinical clarity.",
+    "doctors": [
+      {
+        "name": "Dr. Suhas Patil",
+        "title": "Senior Consultant Physician",
+        "qualification": "MBBS, MD (General Medicine), Grant Medical College Mumbai",
+        "experience": "25+ years",
+        "specialization": "Cardio-Metabolic Management, Critical Care & Diagnostics",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98204 16503",
+      "emergencyPhone": "+91 98204 16503",
+      "appointmentPhoneRaw": "+919820416503",
+      "emergencyPhoneRaw": "+919820416503",
+      "email": "contact@drpatilsclinic.co.in",
+      "supportEmail": "help@drpatilsclinic.co.in",
+      "appointmentEmail": "consult@drpatilsclinic.co.in",
+      "whatsapp": "919820416503"
+    },
+    "address": {
+      "line1": "Aaditya Tower, Near Hotel Garden, Thana Naka",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed2",
+      "googleMapsLink": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed3"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "09:00 AM - 1:00 PM, 4:30 PM - 8:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "09:00 AM - 2:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 09:00 AM - 8:30 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/DrPatilsClinicPanvel",
+      "twitter": "https://twitter.com/DrPatilPhysician",
+      "instagram": "https://www.instagram.com/drpatilsconsulting",
+      "linkedin": "https://www.linkedin.com/company/dr-patils-hospital-clinic",
+      "youtube": "https://www.youtube.com/@DrPatilMedicine"
+    },
+    "services": [
+      {
+        "icon": "fas fa-heart",
+        "title": "Hypertension & Cardio Care",
+        "description": "Continuous automated baseline screening for vascular pressure monitoring, stress reduction systems, and cholesterol routing."
+      },
+      {
+        "icon": "fas fa-dna",
+        "title": "Complex Metabolic Triage",
+        "description": "Custom insulin tracking loops, advanced endocrine balance modeling, and therapeutic organ health screenings."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Dr. Patil's Clinic near Thana Naka Panvel provides expert consulting physician operations and complex clinical medicine under Dr. Suhas Patil.",
+      "metaKeywords": "Consultant physician Panvel, internal medicine doctor, Dr Suhas Patil, medical specialist Raigad"
+    }
+  },
+
+  "2005": {
+    "clinicName": "Sai Clinic",
+    "tagline": "Rapid Primary Care & High-Volume Outpatient Engineering",
+    "heroTitle": "Swift Diagnostics,",
+    "heroTitleHighlight": "Effective Healing",
+    "heroDescription": "Fast family consultation paths, structured seasonal checkups, and immediate relief solutions managing heavy daily patient volumes seamlessly.",
+    "established": "2011",
+    "yearsExperience": "15+",
+    "patientsTreated": "40k+",
+    "expertDoctors": "1",
+    "satisfactionRate": "96%",
+    "rating": "4.7",
+    "reviewCount": "1150+",
+    "aboutDescription": "Sai Clinic is designed around high efficiency and rapid patient turnaround times in Panvel. Led by Chief Family Physician Dr. Sachin B. Patil, the center utilizes automated medical sorting architectures to check and treat minor to moderate ailments cleanly.",
+    "missionStatement": "To bring affordable, fast, and remarkably robust primary medicine workflows to local neighborhoods.",
+    "doctors": [
+      {
+        "name": "Dr. Sachin B. Patil",
+        "title": "Chief Family Physician",
+        "qualification": "MBBS, General Practitioner",
+        "experience": "15+ years",
+        "specialization": "Outpatient Management, Infectious Illnesses & Pain Control",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 93231 09511",
+      "emergencyPhone": "+91 93231 09511",
+      "appointmentPhoneRaw": "+919323109511",
+      "emergencyPhoneRaw": "+919323109511",
+      "email": "info@saiclinicpanvel.in",
+      "supportEmail": "help@saiclinicpanvel.in",
+      "appointmentEmail": "visit@saiclinicpanvel.in",
+      "whatsapp": "919323109511"
+    },
+    "address": {
+      "line1": "Shop 1-2, Sai Corner Building, Near Old Naka",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed4",
+      "googleMapsLink": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed5"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "09:30 AM - 1:30 PM, 5:30 PM - 10:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "09:30 AM - 6:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 09:30 AM - 10:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/SaiClinicPanvel",
+      "twitter": "https://twitter.com/SaiClinicPanvel",
+      "instagram": "https://www.instagram.com/saiclinicpanvel",
+      "linkedin": "https://www.linkedin.com/company/sai-clinic-panvel",
+      "youtube": "https://www.youtube.com/@SaiClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-stethoscope",
+        "title": "Heavy-Volume OPD Care",
+        "description": "Optimized checkups for systemic viral infections, structural muscle pain, and acute respiratory distress symptoms."
+      },
+      {
+        "icon": "fas fa-capsules",
+        "title": "Preventative Family Checks",
+        "description": "Baseline biometric monitoring, simple health indexes analysis, and custom pediatric/geriatric primary care."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Sai Clinic in Panvel offers exceptionally fast primary medicine consultation and accurate disease sorting under Dr. Sachin B. Patil.",
+      "metaKeywords": "Family doctor Panvel, Sai clinic outpatient, Dr Sachin B Patil, rapid medical checkup"
+    }
+  },
+
+  "2006": {
+    "clinicName": "Swaraj Clinic",
+    "tagline": "Advanced General Surgery & Minimal Access Interventions",
+    "heroTitle": "Surgical Excellence,",
+    "heroTitleHighlight": "Empathetic Processing",
+    "heroDescription": "Advanced laser surgical consultations, laparoscopic treatment pipelines, and premium post-operative healing frameworks.",
+    "established": "2000",
+    "yearsExperience": "26+",
+    "patientsTreated": "18k+",
+    "expertDoctors": "3",
+    "satisfactionRate": "99%",
+    "rating": "4.9",
+    "reviewCount": "1250+",
+    "aboutDescription": "Swaraj Clinic is a state-of-the-art specialist facility located in Panvel. Spearheaded by the renowned General Surgeon Dr. Amit Thadhani, the center focuses on micro-invasive laser operations, laparoscopic gallbladder treatments, and advanced hernia resolutions.",
+    "missionStatement": "To provide cutting-edge surgical insights and high-precision minimal access interventions safely at nominal costs.",
+    "doctors": [
+      {
+        "name": "Dr. Amit Thadhani",
+        "title": "Chief Surgeon & Director",
+        "qualification": "MBBS, MS (General Surgery), Fellowship in Minimal Access Surgery (AMASI)",
+        "experience": "26+ years",
+        "specialization": "Laparoscopy, Advanced Laser Anorectal Surgery & Critical Surgical Sorting",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98211 44535",
+      "emergencyPhone": "+91 98211 44535",
+      "appointmentPhoneRaw": "+919821144535",
+      "emergencyPhoneRaw": "+919821144535",
+      "email": "info@swarajclinic.co.in",
+      "supportEmail": "care@swarajclinic.co.in",
+      "appointmentEmail": "surgical@swarajclinic.co.in",
+      "whatsapp": "919821144535"
+    },
+    "address": {
+      "line1": "Swaraj Medical Mansion, Sector 15, Commercial Node",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed6",
+      "googleMapsLink": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed7"
+    },
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdayHours": "11:00 AM - 3:00 PM, 6:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "11:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Emergency Cases Only",
+      "summary": "Mon - Sat: 11:00 AM - 9:00 PM"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/SwarajClinicSurgical",
+      "twitter": "https://twitter.com/DrAmitThadhani",
+      "instagram": "https://www.instagram.com/swarajclinicsurgical",
+      "linkedin": "https://www.linkedin.com/company/swaraj-clinic-hospital",
+      "youtube": "https://www.youtube.com/@SwarajSurgical"
+    },
+    "services": [
+      {
+        "icon": "fas fa-laptop-medical",
+        "title": "Laparoscopic Operations",
+        "description": "High-definition keyhole operations for appendix, gallbladder removals, and complex abdominal wall hernias."
+      },
+      {
+        "icon": "fas fa-wand-magic-sparkles",
+        "title": "Laser Surgical Solutions",
+        "description": "Modern painless laser processing for piles, anal fissures, fistulas, and rapid downtime soft tissue tumors."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Swaraj Clinic in Panvel delivers exceptional general and laparoscopic surgical operations under expert Director Dr. Amit Thadhani.",
+      "metaKeywords": "General surgeon Panvel, laparoscopy clinic, Dr Amit Thadhani, laser piles surgery Navi Mumbai"
+    }
+  },
+
+  "2007": {
+    "clinicName": "Arogya Clinic",
+    "tagline": "Family Health Specialist & Chronic Illness Management Protocols",
+    "heroTitle": "Continuous Vigilance,",
+    "heroTitleHighlight": "Balanced Vitality",
+    "heroDescription": "Long-term patient profiling setups, structured tracking patterns, and preventative internal medicine screening inside an accessible local hub.",
+    "established": "2015",
+    "yearsExperience": "11+",
+    "patientsTreated": "14k+",
+    "expertDoctors": "2",
+    "satisfactionRate": "97%",
+    "rating": "4.8",
+    "reviewCount": "410+",
+    "aboutDescription": "Arogya Clinic serves as an advanced community clinic infrastructure in Panvel. Built specifically around recurring patient tracking systems, the team ensures robust management plans for chronic diabetic, high blood pressure, and metabolic dysfunctions.",
+    "missionStatement": "To establish consistent healthcare tracking interfaces that prevent acute lifestyle disease complications safely.",
+    "doctors": [
+      {
+        "name": "Clinical Health Team",
+        "title": "Consultant Medical Leads",
+        "qualification": "MBBS Internal Specialists",
+        "experience": "11+ years",
+        "specialization": "Chronic Disease Support & Geriatric Medicine",
+        "image": "https://images.unsplash.com/photo-1594824813573-246434de83fb?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98195 24103",
+      "emergencyPhone": "+91 98195 24103",
+      "appointmentPhoneRaw": "+919819524103",
+      "emergencyPhoneRaw": "+919819524103",
+      "email": "contact@arogyaclinicpanvel.in",
+      "supportEmail": "help@arogyaclinicpanvel.in",
+      "appointmentEmail": "slots@arogyaclinicpanvel.in",
+      "whatsapp": "919819524103"
+    },
+    "address": {
+      "line1": "Shop 7, Prime Plaza Building, Sector 11",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed8",
+      "googleMapsLink": "https://maps.google.com/maps?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+410206&t=&z=14&ie=UTF8&iwloc=&output=embed9"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 1:00 PM, 5:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ArogyaClinicPanvel",
+      "twitter": "https://twitter.com/ArogyaPanvel",
+      "instagram": "https://www.instagram.com/arogyaclinicpanvel",
+      "linkedin": "https://www.linkedin.com/company/arogyas-family-clinic",
+      "youtube": "https://www.youtube.com/@ArogyaClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-stethoscope",
+        "title": "Chronic Management Loops",
+        "description": "Routine metric analytics processing for metabolic stability, cardiovascular safety, and renal protection."
+      },
+      {
+        "icon": "fas fa-shield-virus",
+        "title": "Family Immune Programs",
+        "description": "Annual vaccine management maps, healthy lifestyle indexing, and systemic inflammation reduction counseling."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Arogya Clinic in Sector 11 Panvel offers complete chronic care management, family medicine layouts, and systematic testing tracking.",
+      "metaKeywords": "Chronic care Panvel, family medicine specialist, Arogya health centre, diabetes tracking"
+    }
+  },
+
+  "2008": {
+    "clinicName": "Morya Clinic",
+    "tagline": "Premium Family Care & Specialized Health Screenings",
+    "heroTitle": "Expert Diagnoses,",
+    "heroTitleHighlight": "Trusted Insights",
+    "heroDescription": "Advanced landing page integration tracks, computerized diagnosis routing, and complete patient triage systems for modern families.",
+    "established": "2012",
+    "yearsExperience": "14+",
+    "patientsTreated": "19k+",
+    "expertDoctors": "1",
+    "satisfactionRate": "97%",
+    "rating": "4.8",
+    "reviewCount": "590+",
+    "aboutDescription": "Morya Clinic is a high-demand general practitioner facility based in Panvel. Managed by Dr. Nilesh M. Dev, the clinic blends premium healthcare counseling loops with automated system routing to save hours of manual paper scheduling.",
+    "missionStatement": "To enhance local neighborhood healthcare delivery through precise medical insight and digital system transparency.",
+    "doctors": [
+      {
+        "name": "Dr. Nilesh M. Dev",
+        "title": "Chief Medical Consultant",
+        "qualification": "MBBS, General Medicine Practitioner",
+        "experience": "14+ years",
+        "specialization": "Family Health, Viral Complications & Diagnostic Triage",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98208 61011",
+      "emergencyPhone": "+91 98208 61011",
+      "appointmentPhoneRaw": "+919820861011",
+      "emergencyPhoneRaw": "+919820861011",
+      "email": "info@moryaclinicpanvel.co.in",
+      "supportEmail": "help@moryaclinicpanvel.co.in",
+      "appointmentEmail": "slots@moryaclinicpanvel.co.in",
+      "whatsapp": "919820861011"
+    },
+    "address": {
+      "line1": "Shop 2, Morya Residency, Near Central Junction",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+4102060",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+4102061"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "10:00 AM - 1:30 PM, 6:00 PM - 9:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "10:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 10:00 AM - 9:30 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/MoryaClinicPanvel",
+      "twitter": "https://twitter.com/MoryaClinic",
+      "instagram": "https://www.instagram.com/moryaclinicpanvel",
+      "linkedin": "https://www.linkedin.com/company/morya-clinic",
+      "youtube": "https://www.youtube.com/@MoryaClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-stethoscope",
+        "title": "General Health Management",
+        "description": "Routine diagnostic analysis, systemic infection checking, and acute metabolic balancing matrices."
+      },
+      {
+        "icon": "fas fa-heart-pulse",
+        "title": "Preventative Screening",
+        "description": "Advanced corporate physical exams, vascular checkups, and early metabolic fault identification loops."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Morya Clinic in Panvel offers top-tier primary healthcare checkups and family medicine under Chief Doctor Dr. Nilesh M. Dev.",
+      "metaKeywords": "Morya clinic Panvel, Dr Nilesh Dev, family doctor Navi Mumbai, health screening"
+    }
+  },
+
+  "2009": {
+    "clinicName": "Care & Cure Clinic",
+    "tagline": "Integrated General Practice & High-Density Neighborhood Health Hub",
+    "heroTitle": "Reliable Care,",
+    "heroTitleHighlight": "Rapid Recovery",
+    "heroDescription": "Accessible primary health consultations, high-speed seasonal outbreak medical sorting, and long-term family checkups.",
+    "established": "2017",
+    "yearsExperience": "9+",
+    "patientsTreated": "16k+",
+    "expertDoctors": "2",
+    "satisfactionRate": "96%",
+    "rating": "4.7",
+    "reviewCount": "480+",
+    "aboutDescription": "Care & Cure Clinic is located in a high-density urban corridor of Panvel. Engineered specifically to tackle heavy evening patient rushes, the General Practitioner Team runs optimized triage loops that reduce system blockages.",
+    "missionStatement": "To provide highly accessible, accurate diagnostic pathways for neighborhood residential sectors cleanly.",
+    "doctors": [
+      {
+        "name": "General Practitioner Team",
+        "title": "Clinical Officers",
+        "qualification": "MBBS Medical Associates",
+        "experience": "8+ years",
+        "specialization": "OPD Management, Infectious Diseases & Minor Urgent Care",
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98334 10565",
+      "emergencyPhone": "+91 98334 10565",
+      "appointmentPhoneRaw": "+919833410565",
+      "emergencyPhoneRaw": "+919833410565",
+      "email": "care@careandcurepanvel.in",
+      "supportEmail": "help@careandcurepanvel.in",
+      "appointmentEmail": "slots@careandcurepanvel.in",
+      "whatsapp": "919833410565"
+    },
+    "address": {
+      "line1": "Shop 5, Greenwood Hub, Sector 20",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+4102062",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+4102063"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "09:00 AM - 1:00 PM, 5:00 PM - 9:30 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "09:00 AM - 5:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 09:00 AM - 9:30 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/CareCureClinicPanvel",
+      "twitter": "https://twitter.com/CareCurePanvel",
+      "instagram": "https://www.instagram.com/careandcureclinicpanvel",
+      "linkedin": "https://www.linkedin.com/company/care-cure-clinic",
+      "youtube": "https://www.youtube.com/@CareCureClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-stethoscope",
+        "title": "Primary Outpatient Medicine",
+        "description": "Routine diagnostic routing, fever assessments, viral mapping, and clear treatment pathways."
+      },
+      {
+        "icon": "fas fa-hand-holding-medical",
+        "title": "Family Wellness Tracking",
+        "description": "Systemic metric reviews, preventative vascular screening loops, and seasonal health instructions."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Care & Cure Clinic in Sector 20 Panvel delivers professional, rapid primary care and family medicine consultation workflows.",
+      "metaKeywords": "Care and cure clinic, general practitioner Panvel, health clinic Navi Mumbai, family doctor"
+    }
+  },
+
+  "2010": {
+    "clinicName": "Gurukrupa Clinic",
+    "tagline": "Traditional Trust in Modern Family Practice Solutions",
+    "heroTitle": "Time-Tested Trust,",
+    "heroTitleHighlight": "Accurate Remedies",
+    "heroDescription": "Replacing obsolete paper registries with crisp slot configurations while keeping traditional family physician care robust.",
+    "established": "1995",
+    "yearsExperience": "31+",
+    "patientsTreated": "50k+",
+    "expertDoctors": "1",
+    "satisfactionRate": "98%",
+    "rating": "4.8",
+    "reviewCount": "1420+",
+    "aboutDescription": "Gurukrupa Clinic is a legendary family practice staple inside Old Panvel. Operating for over three decades, the center provides highly consistent medicine workflows, transitioning traditional trust parameters into modern operational frameworks.",
+    "missionStatement": "To provide enduring healthcare reliability across generation cycles using straightforward diagnostic frameworks.",
+    "doctors": [
+      {
+        "name": "Family Health Leads",
+        "title": "Senior Family Physicians",
+        "qualification": "MBBS Consulting Practitioners",
+        "experience": "20+ years",
+        "specialization": "Community Health, Geriatric Management & Viral Defense",
+        "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&fit=crop&crop=face"
+      }
+    ],
+    "contact": {
+      "appointmentPhone": "+91 98196 35246",
+      "emergencyPhone": "+91 98196 35246",
+      "appointmentPhoneRaw": "+919819635246",
+      "emergencyPhoneRaw": "+919819635246",
+      "email": "info@gurukrupaclinic.in",
+      "supportEmail": "help@gurukrupaclinic.in",
+      "appointmentEmail": "slots@gurukrupaclinic.in",
+      "whatsapp": "919819635246"
+    },
+    "address": {
+      "line1": "Building 3, Gurukrupa Square, Old Panvel Area",
+      "line2": "Panvel, Navi Mumbai, Maharashtra - 410206, India",
+      "googleMapsEmbed": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+4102064",
+      "googleMapsLink": "https://maps.google.com/?q=Sector+15+Panvel+Navi+Mumbai+Maharashtra+4102065"
+    },
+    "hours": {
+      "weekdays": "Monday - Saturday",
+      "weekdayHours": "09:00 AM - 1:00 PM, 5:00 PM - 9:00 PM",
+      "saturday": "Saturday",
+      "saturdayHours": "09:00 AM - 3:00 PM",
+      "sunday": "Sunday",
+      "sundayHours": "Closed",
+      "summary": "Mon - Sat: 09:00 AM - 9:00 PM (Split Timing)"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/GurukrupaClinicPanvel",
+      "twitter": "https://twitter.com/GurukrupaHealth",
+      "instagram": "https://www.instagram.com/gurukrupaclinic",
+      "linkedin": "https://www.linkedin.com/company/gurukrupa-family-clinic",
+      "youtube": "https://www.youtube.com/@GurukrupaClinic"
+    },
+    "services": [
+      {
+        "icon": "fas fa-stethoscope",
+        "title": "Generational Health Care",
+        "description": "Comprehensive diagnostics for elderly care, seasonal pediatrics, and custom infectious control routes."
+      },
+      {
+        "icon": "fas fa-notes-medical",
+        "title": "General Systemic Reviews",
+        "description": "Baseline checks tracking ongoing hypertension levels, dietary balance markers, and metabolic indices updates."
+      }
+    ],
+    "seo": {
+      "metaDescription": "Gurukrupa Clinic in Old Panvel offers reliable family practice consulting and generational healthcare workflows.",
+      "metaKeywords": "Old Panvel clinic, family practice doctor, Gurukrupa health, local physician Navi Mumbai"
+    }
+  }
+}
